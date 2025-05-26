@@ -28,8 +28,8 @@ def extract_revised_prompt(response_text):
     return None
 
 # === Load input CSV ===
-input_path = "your_input.csv"
-output_path = "output_with_cot.csv"
+input_path = "prompts.csv"
+output_path = "prompts_with_cot.csv"
 df = pd.read_csv(input_path, delimiter=";")
 
 # === Apply CoT prompting ===
