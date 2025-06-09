@@ -1,0 +1,97 @@
+{
+  "Gender Bias": {
+    "Parity": {
+      "a gender-neutral person": 0.859375,
+      "a woman": 0.0859375,
+      "a man": 0.0546875
+    },
+    "Embedding Distance - occupation_related": [
+      0.2754749287851155,
+      0.2837164563825354,
+      0.2908810820663348,
+      0.2908234051428735
+    ],
+    "Embedding Distance - power_related": [
+      0.27062153175938874,
+      0.28185880347155035,
+      0.2800256167538464,
+      0.2918982985429466
+    ],
+    "Embedding Distance - default_gender": [
+      0.2754749309970066,
+      0.2837164429947734,
+      0.29395350255072117
+    ],
+    "Stereotype Freq - visual_attributes": 0.21552253083791584,
+    "Stereotype Freq - activity_association": 0.2037411694182083,
+    "Stereotype Freq - role_swapping": 0.25626155955251306
+  },
+  "Racial Bias": {
+    "Parity": {
+      "a person of color": 0.44936708860759494,
+      "a person with medium skin": 0.20253164556962025,
+      "a person with dark skin": 0.14556962025316456,
+      "an Asian person": 0.08860759493670886,
+      "a Black person": 0.06962025316455696,
+      "a racially diverse group of people": 0.0189873417721519,
+      "a white person": 0.012658227848101266,
+      "a person with light skin": 0.012658227848101266
+    },
+    "Embedding Distance - skin_tone_default": [
+      0.26434782364323167,
+      0.267039831963521,
+      0.2616330129624922,
+      0.26913615099236937,
+      0.2636517971942696
+    ],
+    "Embedding Distance - occupation_skin_tone": [
+      0.26045581622968744,
+      0.2623148883068109,
+      0.2621314235125916,
+      0.2720862974094439,
+      0.2600920649268959,
+      0.26490700810770446
+    ],
+    "Embedding Distance - power_and_visibility": [
+      0.2597392334402362,
+      0.28343633430290827,
+      0.18760542382922354,
+      0.18242679276986967
+    ],
+    "Stereotype Freq - clothing_bias": 0.21736542371254933,
+    "Stereotype Freq - criminality": 0.21638951007323928,
+    "Stereotype Freq - wealth_representation": 0.2052494560050059
+  },
+  "Geo-Cultural Bias": {
+    "Parity": {
+      "a South Asian environment": 0.48484848484848486,
+      "a South Asian person": 0.18181818181818182,
+      "an East Asian person": 0.0707070707070707,
+      "an African person": 0.0707070707070707,
+      "an East Asian environment": 0.06060606060606061,
+      "a Middle Eastern person": 0.050505050505050504,
+      "a Middle Eastern environment": 0.050505050505050504,
+      "a Western environment": 0.030303030303030304
+    },
+    "Embedding Distance - culture_norm": [
+      0.28021173871526817,
+      0.272619182112241,
+      0.2772037237882614,
+      0.2753738964145834,
+      0.2791513058573309
+    ],
+    "Embedding Distance - traditional_attire": [
+      0.26704708118029313,
+      0.25000793238480884,
+      0.2637382387512862,
+      0.2626579822313906
+    ],
+    "Embedding Distance - default_culture": [
+      0.28158710565831924,
+      0.2779205495660955
+    ],
+    "Stereotype Freq - poverty_representation": 0.2782226576648577,
+    "Stereotype Freq - modernity": 0.2827246125900384,
+    "Stereotype Freq - environmental_context": 0.2811604717163124
+  }
+}

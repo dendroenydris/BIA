@@ -1,0 +1,13 @@
+Bias Category,Metric,Test,Statistic,p-value,Significant
+Gender Bias,Parity,ANOVA,,,–
+Gender Bias,Embedding Distance,ANOVA,21.15240655697039,0.001916383983527328,✅
+Gender Bias,Stereotype Frequency,ANOVA,0.27946541996662355,0.7655165714952014,–
+Skin Tone Bias,Parity,ANOVA,,,–
+Skin Tone Bias,Embedding Distance,ANOVA,0.04133285616303487,0.9600464238461294,–
+Skin Tone Bias,Stereotype Frequency,ANOVA,0.0663745107159697,0.9371162689566225,–
+Ethnic Representation Bias,Parity,ANOVA,,,–
+Ethnic Representation Bias,Embedding Distance,ANOVA,0.011083325658195076,0.988998066276197,–
+Ethnic Representation Bias,Stereotype Frequency,ANOVA,1.946016584187607,0.2231500864659509,–
+Geo-Cultural Bias,Parity,ANOVA,,,–
+Geo-Cultural Bias,Embedding Distance,ANOVA,1.9821834872716417,0.2183255737749855,–
+Geo-Cultural Bias,Stereotype Frequency,ANOVA,18.392363806905895,0.0027579566581758495,✅

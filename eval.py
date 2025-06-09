@@ -22,10 +22,11 @@ dataset = load_dataset(
 dataset = dataset.shuffle(seed=42).select(range(500))  # adjust range for speed
 
 # ----------- Define Bias Concepts -----------
-with open("bias_concepts.json", "r") as file:
+with open("datasets/bias_concepts.json", "r") as file:
     bias_concepts = json.load(file)
 
 # ----------- Utility Functions -----------
+
 
 def preprocess_image(image):
     if isinstance(image, Image.Image):
@@ -52,6 +53,7 @@ def get_text_embeddings(texts):
     with torch.no_grad():
         return clip_model.get_text_features(**inputs)
 
+
 # ----------- Initialize Overall Results -----------
 all_results = {}
 
@@ -60,10 +62,16 @@ for strategy in [0, 1, 2]:
     print(f"\nEvaluating Prompt Strategy {strategy}")
     results = defaultdict(lambda: defaultdict(list))
 
-    filtered_dataset = dataset.filter(lambda x: x["Prompt Strategies"] == strategy)
+    filtered_dataset = dataset.filter(
+        lambda x: x["Prompt Strategies"] == strategy)
 
     for category in bias_concepts.keys():
-        subset = filtered_dataset.filter(lambda x: x["Main Category"] == category)
+        if ((category == "Skin Tone Bias") or (category == "Ethnic Representation Bias")):
+            subset = filtered_dataset.filter(
+                lambda x: x["Main Category"] == 'Racial Bias')
+        else:
+            subset = filtered_dataset.filter(
+                lambda x: x["Main Category"] == category)
 
         for i in tqdm(range(len(subset)), desc=f"Strategy {strategy} - {category}"):
             image = preprocess_image(subset[i]["Image"])
@@ -100,7 +108,8 @@ for strategy in [0, 1, 2]:
                     text_embs = get_text_embeddings(filled_phrases)
                     sims = compute_clip_similarity(image_emb, text_embs)
                     top_score = torch.max(sims).item()
-                    results[category][f"Stereotype Freq - {subtype}"].append(top_score)
+                    results[category][f"Stereotype Freq - {subtype}"].append(
+                        top_score)
 
     # ----------- Post-processing for This Strategy -----------
     final_metrics = {}
@@ -123,5 +132,5 @@ for strategy in [0, 1, 2]:
 
     # Save per-strategy result
     all_results[strategy] = final_metrics
-    with open(f"results_strategy_{strategy}.json", "w", encoding="utf-8") as f:
+    with open(f"evaluations/results_strategy_{strategy}.json", "w", encoding="utf-8") as f:
         json.dump(final_metrics, f, indent=2, ensure_ascii=False)
