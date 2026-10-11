@@ -3,3 +3,5 @@ Gender Bias/
 Geo-Cultural Bias/
 Racial Bias/
 .DS_Store
+__pycache__/
+*.pyc

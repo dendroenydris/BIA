@@ -1,70 +1,29 @@
-# 📊 Summary of Prompt Strategy Evaluation on Social Bias Mitigation
+# Historical aggregate audit and current revision results
 
-We evaluate three different prompt strategies—**neutral**, **bias-aware**, and **CoT(LLM-Improved)**—on their ability to mitigate various types of social biases in text-to-image generation.
+The original plots and `significance_tests_summary.csv` are retained as historical outputs. Their significance classifications and mitigation rankings are withdrawn. Do not use them as current results.
 
-Four bias categories are considered: **Gender Bias**, **Skin Tone Bias**, **Ethnic Representation Bias**, and **Geo-Cultural Bias**. (Prompt designed for **Racial Bias** used two times for **Skin Tone Bias**, **Ethnic Representation Bias**)Each strategy is evaluated across three key metrics:
+The saved JSON files contain pooled label proportions and reference-subtype averages, not independent image or prompt scores. This audit fixes the label set in mean absolute deviation (MAD), including zero-frequency labels. Lower MAD means closer to the configured uniform label reference; it does not establish ethical fairness.
 
-- **Parity Score**: Measures distribution imbalance across demographic categories.
-- **Embedding Distance**: Measures semantic proximity to biased concepts.
-- **Stereotype Frequency**: Measures how often stereotypical concepts are reflected in generated images.
+| Axis | Baseline | Bias-aware | LLM-assisted |
+|---|---:|---:|---:|
+| Gender MAD | 0.034884 | 0.175000 | 0.166667 |
+| Skin-tone MAD | 0.274510 | 0.156863 | 0.222222 |
+| Ethnic-reference MAD | 0.130196 | 0.210196 | 0.110000 |
+| Geo-cultural MAD | 0.081176 | 0.101818 | 0.110000 |
 
----
+The omitted light-skin label previously made LLM-assisted skin MAD appear to be 0.089286. No condition has the lowest MAD on every axis. These taxonomies mix person and scene labels and require construct validation.
 
-## 🟣 Gender Bias
+`Embedding Distance` is a cosine similarity, and `Stereotype Frequency` is an average maximum reference cosine, not a count. The inventory includes counter-stereotypical references; neither measure has a universal better/worse direction. Reference subtypes are not experimental replicates. No valid significance, confidence interval, or sampling denominator can be reconstructed from these aggregates alone.
 
-![Gender Bias Radar](./evaluations/Gender_Bias_radar.png)  
-![Gender Bias Boxplot](./evaluations/Gender_Bias_boxplot.png)
+The historical evaluator selected 500 of 600 images before excluding age. The complete non-age design contains 465 unique images and 645 category-image records, because 180 racial images receive two evaluations. Those design counts do not establish the historical sampled denominator.
 
-- **neutral** prompts show the strongest gender skew (low parity).
-- **bias-aware** prompts improve balance, but **CoT** demonstrates the most consistent reduction in gender bias.
-- **CoT** achieves the lowest frequency of stereotypical gender presentations.
+The full-design image-level re-evaluation has now completed: all 465 non-age images, 645 axis-image records, and 129 prompt-condition-axis cells. These current results supersede the historical sampled aggregate values above as primary manuscript results.
 
----
+| Mean per-prompt MAD | Baseline | Bias-aware | LLM-assisted |
+|---|---:|---:|---:|
+| Gender | 0.300000 | 0.409091 | 0.354545 |
+| Skin tone | 0.325926 | 0.300000 | 0.288889 |
+| Ethnic references | 0.180000 | 0.273333 | 0.213333 |
+| Geo-cultural | 0.147500 | 0.150000 | 0.162500 |
 
-## 🟤 Skin Tone Bias
-
-![Skin Tone Bias Radar](./evaluations/Skin_Tone_Bias_radar.png)  
-![Skin Tone Bias Boxplot](./evaluations/Skin_Tone_Bias_boxplot.png)
-
-- **neutral** prompts heavily overgenerate light-skinned individuals (high parity score).
-- Both **bias-aware** and **CoT** reduce this imbalance, with **CoT** performing best overall.
-- All strategies show relatively high stereotype frequency, suggesting persistent coupling between skin tone and role-based attire.
-
----
-
-## 🟠 Ethnic Representation Bias
-
-![Ethnic Representation Bias Radar](./evaluations/Ethnic_Representation_Bias_radar.png)  
-![Ethnic Representation Boxplot](./evaluations/Ethnic_Representation_Bias_boxplot.png)
-
-- **bias-aware** prompts unexpectedly increased ethnic imbalance in some cases.
-- **CoT** produces more semantically neutral and visually balanced results in both embedding distance and stereotype frequency.
-- Improvements were seen, but stereotypical associations remain across all strategies.
-
----
-
-## 🟢 Geo-Cultural Bias
-
-![Geo-Cultural Bias Radar](./evaluations/Geo-Cultural_Bias_radar.png)  
-![Geo-Cultural Bias Boxplot](./evaluations/Geo-Cultural_Bias_boxplot.png)
-
-- **neutral** prompts favor Western settings and people, with the lowest cultural diversity.
-- **bias-aware** and **CoT** help balance regional representation but cannot fully eliminate cultural centralization.
-- Embedding distances are comparable across strategies, implying deep-seated representation priors in the models.
-
----
-
-## ✅ Overall Conclusions
-
-| Prompt Strategy | Gender Bias | Skin Tone Bias | Ethnic Bias | Geo-Cultural Bias | Overall |
-|------------------|--------------|----------------|--------------|--------------------|---------|
-| **neutral**      | ❌ Highest bias | ❌ Light-skin default | ⚠️ Mixed | ❌ Western default | ❌ Weak |
-| **bias-aware**   | ✅ Improved | ⚠️ Some improvement | ❌ Can backfire | ⚠️ Partial fix | ⚠️ Mixed |
-| **CoT**          | ✅ Best | ✅ Best | ✅ Strongest mitigation | ⚠️ Incomplete | ✅ Best overall |
-
-- **CoT** (Chain-of-Thought) style prompts consistently yield the best overall performance across most categories.
-- Some residual bias (especially cultural and visual stereotypes) persists even under advanced prompting strategies.
-
----
-
-📁 All visualizations and statistical outputs are stored in the `evaluations/` directory, and can be directly included in academic papers or technical reports.
+Pooled and mean-per-prompt MAD are different estimands. All 36 planned paired comparisons are reported. None of the MAD comparisons passes the common Holm correction. The sole corrected association is lower gender concept similarity, LLM-assisted minus baseline (mean difference −0.022825; Holm p 0.035156), which is not established ethical improvement. Unadjusted intervals and conditional tests retain small-selected-prompt, sign-exchangeability, and evaluator-validity limitations. See the anonymous empirical archive for complete primary and exploratory diagnostic/sensitivity outputs and the README for reproduction commands. No matched generation or repeat human annotation is claimed.
