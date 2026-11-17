@@ -7,6 +7,6 @@
     "n": 10000
   },
   "variant": "b32",
-  "model": "<repo>/revision/assets/clip-vit-base-patch32",
+  "model": "openai/clip-vit-base-patch32",
   "templates": null
 }

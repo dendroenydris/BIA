@@ -1,7 +1,18 @@
-Age Bias/
-Gender Bias/
-Geo-Cultural Bias/
-Racial Bias/
-.DS_Store
+# Python
 __pycache__/
 *.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# macOS
+.DS_Store
+
+# Large or third-party inputs that are not part of the repository
+images/
+*.parquet
+*.safetensors
+*.bin
+*.ckpt
+*.csv.gz

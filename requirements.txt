@@ -1,11 +1,14 @@
-transformers>=4.36.0
-accelerate>=0.24.0
-torch>=2.0.0
-pandas>=1.5.0
-tqdm>=4.64.0
-datasets>=2.19.0
-Pillow>=10.0.0
-scipy>=1.11.0
+# Analysis of the stored labels and results (analysis/, tests/test_clip_analysis.py, tests/test_matched_clause_pilot.py)
+numpy>=1.24
+scipy>=1.11
 regex>=2023.10.3
-numpy>=1.24.0
-matplotlib>=3.7.0
+matplotlib>=3.7          # Q-Q diagnostic plot of the original-archive CLIP report
+
+# Labelling and generation (evaluation/, generation/); versions used for the stored records are in their configs
+torch>=2.4
+transformers==4.57.6     # tokenizer replays and CLIP; Qwen3-VL labelling used 4.57.1
+diffusers==0.35.2
+accelerate>=0.24
+datasets>=2.19
+pyarrow>=14
+Pillow>=10.0

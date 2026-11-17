@@ -2,7 +2,7 @@
 
 ## Evaluator agreement with the human raters (60 archive images)
 
-| Axis | CLIP B/32 (A; B) | CLIP L/14 ens. (A; B) | Qwen3-VL (A; B) | Qwen3-VL mean | Qwen mean, 58-image pre-A3 | Rater A vs B | Reference bound |
+| Attribute | CLIP B/32 (A; B) | CLIP L/14 ens. (A; B) | Qwen3-VL (A; B) | Qwen3-VL mean | Qwen3-VL mean, first parser (58 images) | Rater A vs B | Reference bound |
 |---|---|---|---|---|---|---|---|
 | gender_presentation | 0.945 (n=37); 0.940 (n=35) | 0.831 (n=37); 1.000 (n=35) | 0.832 [0.735, 0.927]; 0.831 [0.716, 0.928] | 0.831 | 0.835 | 0.764 | 0.65 |
 | skin_tone | 0.150 (n=48); -0.007 (n=37) | 0.169 (n=48); 0.050 (n=37) | 0.565 [0.441, 0.681]; 0.418 [0.28, 0.556] | 0.491 | 0.510 | 0.478 | 0.347 |
@@ -10,9 +10,9 @@
 | cultural_scene | 0.209 (n=40); 0.030 (n=34) | 0.294 (n=40); 0.068 (n=34) | 0.492 [0.382, 0.601]; 0.689 [0.567, 0.813] | 0.591 | 0.579 | 0.470 | 0.382 |
 | age_appearance | n/a; n/a | n/a; n/a | 0.356 [0.23, 0.499]; 0.216 [0.117, 0.322] | 0.286 | 0.279 | 0.339 | 0.219 |
 
-## Regenerated three-condition study, SD 2.1, Qwen3-VL (50 images per cell)
+## Main experiment, SD 2.1, Qwen3-VL (50 images per prompt and condition)
 
-| Axis | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
+| Attribute | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
 |---|---|---|---|---|---|
 | Gender | B | 10/11 | 0.3262 | 0.295 | woman 0.479, man 0.521 |
 | Gender | M | 10/11 | 0.3837 | 0.291 | woman 0.785, man 0.215 |
@@ -30,7 +30,7 @@
 | Age | M | 9/9 | 0.2216 | 0.024 | child 0.018, teenager 0.000, young_adult 0.221, middle_aged 0.239, older_adult 0.522 |
 | Age | L | 9/9 | 0.2157 | 0.151 | child 0.003, teenager 0.000, young_adult 0.351, middle_aged 0.217, older_adult 0.429 |
 
-| Axis | Contrast | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
+| Attribute | Comparison | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
 |---|---|---|---|---|---|---|---|---|---|
 | Gender | M−B | 10 | 0.0575 | [-0.0398, 0.1548] | 0.1360 | 0.42 | 0.219 | 1.000 | 0.1353 |
 | Gender | L−B | 10 | 0.0953 | [-0.0805, 0.2711] | 0.2457 | 0.39 | 0.258 | 1.000 | 0.2444 |
@@ -48,9 +48,9 @@
 | Age | L−B | 9 | -0.0261 | [-0.0778, 0.0257] | 0.0673 | -0.39 | 0.281 | 1.000 | 0.0717 |
 | Age | L−M | 9 | -0.0059 | [-0.0586, 0.0468] | 0.0686 | -0.09 | 0.805 | 1.000 | 0.0730 |
 
-## Regenerated three-condition study, FLUX.1-schnell, Qwen3-VL (50 images per cell)
+## Main experiment, FLUX.1-schnell, Qwen3-VL (50 images per prompt and condition)
 
-| Axis | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
+| Attribute | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
 |---|---|---|---|---|---|
 | Gender | B | 11/11 | 0.4331 | 0.207 | woman 0.521, man 0.479 |
 | Gender | M | 11/11 | 0.3619 | 0.253 | woman 0.813, man 0.187 |
@@ -68,7 +68,7 @@
 | Age | M | 9/9 | 0.2418 | 0.000 | child 0.004, teenager 0.016, young_adult 0.156, middle_aged 0.202, older_adult 0.622 |
 | Age | L | 9/9 | 0.2846 | 0.069 | child 0.000, teenager 0.002, young_adult 0.430, middle_aged 0.150, older_adult 0.418 |
 
-| Axis | Contrast | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
+| Attribute | Comparison | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
 |---|---|---|---|---|---|---|---|---|---|
 | Gender | M−B | 11 | -0.0712 | [-0.1785, 0.0362] | 0.1598 | -0.45 | 0.195 | 1.000 | 0.1497 |
 | Gender | L−B | 11 | 0.0064 | [-0.0887, 0.1015] | 0.1415 | 0.05 | 0.906 | 1.000 | 0.1326 |
@@ -86,9 +86,9 @@
 | Age | L−B | 9 | 0.0232 | [-0.0355, 0.0820] | 0.0764 | 0.30 | 0.359 | 1.000 | 0.0814 |
 | Age | L−M | 9 | 0.0428 | [-0.0025, 0.0881] | 0.0590 | 0.73 | 0.066 | 0.812 | 0.0628 |
 
-## Matched-clause experiment, SD 2.1, Qwen3-VL (50 images per cell)
+## Matched-clause experiment, SD 2.1, Qwen3-VL (50 images per prompt and version)
 
-| Axis | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
+| Attribute | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
 |---|---|---|---|---|---|
 | Gender | C | 11/11 | 0.4180 | 0.227 | woman 0.452, man 0.548 |
 | Gender | I | 10/11 | 0.4034 | 0.251 | woman 0.415, man 0.585 |
@@ -99,16 +99,16 @@
 | Geo-culture | C | 7/8 | 0.2537 | 0.295 | western_european 0.794, south_asian 0.145, east_asian 0.014, middle_eastern 0.011, african 0.014, latin_american 0.021 |
 | Geo-culture | I | 8/8 | 0.2581 | 0.357 | western_european 0.770, south_asian 0.175, east_asian 0.023, middle_eastern 0.016, african 0.016, latin_american 0.000 |
 
-| Axis | Contrast | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
+| Attribute | Comparison | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
 |---|---|---|---|---|---|---|---|---|---|
 | Gender | I−C | 10 | -0.0064 | [-0.0645, 0.0518] | 0.0813 | -0.08 | 0.875 | 1.000 | 0.0809 |
 | Skin tone | I−C | 12 | 0.0105 | [-0.0276, 0.0487] | 0.0600 | 0.18 | 0.551 | 1.000 | 0.0533 |
 | Ethnicity | I−C | 12 | -0.0227 | [-0.0395, -0.0058] | 0.0265 | -0.85 | 0.010 | 0.041 | 0.0236 |
 | Geo-culture | I−C | 7 | 0.0015 | [-0.0055, 0.0085] | 0.0076 | 0.20 | 0.625 | 1.000 | 0.0096 |
 
-## Original 600 images, Qwen3-VL (5 images per cell)
+## Original archive of 600 SD 2.1 images, Qwen3-VL (5 images per prompt and condition)
 
-| Axis | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
+| Attribute | Condition | Prompts | Mean label MAD | Non-substantive share | Pooled label shares |
 |---|---|---|---|---|---|
 | Gender | B | 10/11 | 0.4000 | 0.218 | woman 0.488, man 0.512 |
 | Gender | M | 9/11 | 0.4556 | 0.255 | woman 0.756, man 0.244 |
@@ -126,7 +126,7 @@
 | Age | M | 9/9 | 0.2400 | 0.000 | child 0.000, teenager 0.022, young_adult 0.222, middle_aged 0.267, older_adult 0.489 |
 | Age | L | 9/9 | 0.2400 | 0.156 | child 0.000, teenager 0.000, young_adult 0.316, middle_aged 0.263, older_adult 0.421 |
 
-| Axis | Contrast | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
+| Attribute | Comparison | n | Mean Δ | 95% CI | SD Δ | dz | p (sign-flip) | p (Holm) | MDE |
 |---|---|---|---|---|---|---|---|---|---|
 | Gender | M−B | 9 | 0.0667 | [-0.0871, 0.2204] | 0.2000 | 0.33 | 0.500 | 1.000 | 0.2130 |
 | Gender | L−B | 10 | 0.0600 | [-0.1059, 0.2259] | 0.2319 | 0.26 | 0.625 | 1.000 | 0.2307 |
