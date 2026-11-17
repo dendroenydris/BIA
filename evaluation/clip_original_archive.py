@@ -9,7 +9,7 @@ from collections import Counter
 from pathlib import Path
 from statistics import mean
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def file_sha256(path):
@@ -64,7 +64,7 @@ def main():
     parser.add_argument("--model", default="openai/clip-vit-base-patch32", help="ID or local directory")
     parser.add_argument("--model-revision", default=None)
     parser.add_argument("--local-files-only", action="store_true", help="Require local dataset and model/processor; no Hub loading")
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "evaluations/revised")
+    parser.add_argument("--output-dir", type=Path, required=True, help="new folder; records/clip/original_archive_b32 holds the stored run")
     args = parser.parse_args()
     import datasets
     import torch

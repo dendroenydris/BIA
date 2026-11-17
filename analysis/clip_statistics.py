@@ -1,4 +1,10 @@
-"""Audit saved aggregates. Inference requires independent prompt/image records."""
+"""CLIP label statistics shared by the original-archive analyses, and the audit of the original study's saved aggregates.
+
+Without --per-image: recompute label MAD and proportions from the aggregate JSON files of the original study
+(results/original_study/results_strategy_*.json); descriptive only.
+With --per-image: paired prompt comparisons from a complete per-image CLIP evaluation
+(evaluation/clip_original_archive.py).
+"""
 import argparse
 import csv
 import hashlib
@@ -6,10 +12,13 @@ import itertools
 import json
 import math
 from collections import Counter, defaultdict
+import sys
 from pathlib import Path
 from statistics import mean, stdev
 
-ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from paths import CONCEPTS, PROMPTS, RESULTS  # noqa: E402
+
 STRATEGIES = {0: "Baseline", 1: "Bias-aware", 2: "LLM-assisted"}
 
 
@@ -36,7 +45,7 @@ def write_csv(path, rows):
 def legacy_summary(concepts):
     rows, labels_out, subtypes = [], [], []
     for strategy, name in STRATEGIES.items():
-        metrics = json.loads((ROOT / f"evaluations/results_strategy_{strategy}.json").read_text())
+        metrics = json.loads((RESULTS / f"original_study/results_strategy_{strategy}.json").read_text())
         for category, values in metrics.items():
             labels = concepts[category]["Parity"]["concepts"]
             proportions = values["Parity"]
@@ -161,13 +170,13 @@ def prompt_comparisons(records, concepts):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--per-image", type=Path, help="JSONL from revised eval.py")
-    parser.add_argument("--output-dir", type=Path, default=ROOT / "evaluations/revised")
+    parser.add_argument("--per-image", type=Path, help="per_image.jsonl from evaluation/clip_original_archive.py")
+    parser.add_argument("--output-dir", type=Path, default=RESULTS / "original_study/aggregate_audit")
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    concepts = json.loads((ROOT / "datasets/bias_concepts.json").read_text())
+    concepts = json.loads(CONCEPTS.read_text())
     if args.per_image:
-        records = load_completed_evaluation(args.per_image, ROOT / "datasets/bias_concepts.json", ROOT / "datasets/prompts.csv")
+        records = load_completed_evaluation(args.per_image, CONCEPTS, PROMPTS)
         if (args.output_dir / "prompt_comparisons.csv").exists():
             raise FileExistsError("Will not overwrite an existing inferential table")
         write_csv(args.output_dir / "prompt_comparisons.csv", prompt_comparisons(records, concepts))

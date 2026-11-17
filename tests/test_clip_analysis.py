@@ -1,13 +1,21 @@
-"""Small regression check: scientific units, zero labels, and prompt extraction."""
+"""Regression checks for the original-archive CLIP analysis: label MAD with absent labels, Holm, paired comparisons,
+the completion gate on per-image records, dataset loading, and prompt extraction. Synthetic fixtures only.
+
+usage: python tests/test_clip_analysis.py
+"""
 import math
 import csv
 import hashlib
 import json
+import sys
 import tempfile
 from pathlib import Path
-from bias_analysis import parity_mad, holm, prompt_comparisons, load_completed_evaluation
-from eval import reference_texts, validate_design, file_sha256, load_study_dataset
-from sample import extract_revised_prompt
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from analysis.clip_statistics import parity_mad, holm, prompt_comparisons, load_completed_evaluation  # noqa: E402
+from evaluation.clip_original_archive import reference_texts, validate_design, file_sha256, load_study_dataset  # noqa: E402
+from generation.rewrite_prompts_llm import extract_revised_prompt  # noqa: E402
+from paths import CONCEPTS, PROMPTS  # noqa: E402
 
 
 def rejected(call):
@@ -20,8 +28,7 @@ def rejected(call):
 
 def completion_gate_fixture():
     """Even a partial stream ending at a whole cell must not support inference."""
-    root = Path(__file__).resolve().parent
-    concepts_path, prompts_path = root / "datasets/bias_concepts.json", root / "datasets/prompts.csv"
+    concepts_path, prompts_path = CONCEPTS, PROMPTS
     with prompts_path.open(encoding="utf-8-sig") as handle:
         prompts = list(csv.DictReader(handle, delimiter=";"))
     records, image_id = [], 0

@@ -1,12 +1,20 @@
-"""Verify a supplied tokenizer replay and report explicitly post-hoc sensitivity."""
+"""Verify the SD 2.1 tokenizer replay of all 120 prompt strings and report the post-hoc no-overflow racial subset.
+
+Inputs: the SD 2.1 tokenizer files (--tokenizer, not stored), the replay records (records/tokenizer_audit/sd21, written by
+analysis/tokenizer_audit.py) and the per-image CLIP evaluation (records/clip/original_archive_b32).
+Output: the tables in results/tokenizer_audit.
+"""
 import argparse
 import csv
 import hashlib
 import json
+import sys
 from pathlib import Path
 from statistics import mean, stdev
 
-from bias_analysis import ROOT, STRATEGIES, load_completed_evaluation, parity_mad, prompt_comparisons, write_csv
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from paths import CLIP_LABELS, ROOT, TOKENIZER_RECORDS  # noqa: E402
+from analysis.clip_statistics import STRATEGIES, load_completed_evaluation, parity_mad, prompt_comparisons, write_csv
 
 
 def sha(path):
@@ -106,6 +114,8 @@ def report(tokenizer_dir, audit_dir, image_dir, output_dir, comparison_tokenizer
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    for name in ['tokenizer','audit-dir','image-dir','output-dir']:p.add_argument('--'+name,type=Path,required=True)
+    for name in ['tokenizer','output-dir']:p.add_argument('--'+name,type=Path,required=True)
+    p.add_argument('--audit-dir',type=Path,default=TOKENIZER_RECORDS/'sd21')
+    p.add_argument('--image-dir',type=Path,default=CLIP_LABELS/'original_archive_b32')
     p.add_argument('--comparison-tokenizer',type=Path)
     a=p.parse_args();report(a.tokenizer,a.audit_dir,a.image_dir,a.output_dir,a.comparison_tokenizer)

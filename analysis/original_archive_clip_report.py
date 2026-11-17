@@ -1,4 +1,7 @@
-"""Derive complete descriptive and diagnostic tables from a verified image run.
+"""Original archive, CLIP ViT-B/32: descriptive and diagnostic tables from the verified per-image evaluation.
+
+Input: the output folder of evaluation/clip_original_archive.py (stored in records/clip/original_archive_b32).
+Output: the tables in results/clip/original_archive_b32.
 
 Primary contrasts are unchanged. Bootstrap and directional sign tests are
 exploratory sensitivity checks, not a search for replacement significance.
@@ -7,6 +10,7 @@ import argparse
 import hashlib
 import itertools
 import json
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import mean, stdev
@@ -14,7 +18,9 @@ from statistics import mean, stdev
 import numpy as np
 from scipy import stats
 
-from bias_analysis import ROOT, STRATEGIES, holm, load_completed_evaluation, parity_mad, prompt_comparisons, write_csv
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from paths import CLIP_LABELS, ROOT  # noqa: E402
+from analysis.clip_statistics import STRATEGIES, holm, load_completed_evaluation, parity_mad, prompt_comparisons, write_csv
 
 METRICS = ["label_imbalance_mad", "concept_similarity", "reference_similarity"]
 
@@ -134,7 +140,7 @@ def report(input_dir, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input-dir", type=Path, required=True)
-    parser.add_argument("--output-dir", type=Path, required=True)
+    parser.add_argument("--input-dir", type=Path, default=CLIP_LABELS / "original_archive_b32")
+    parser.add_argument("--output-dir", type=Path, required=True, help="new folder; results/clip/original_archive_b32 holds the reported tables")
     args = parser.parse_args()
     report(args.input_dir, args.output_dir)

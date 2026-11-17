@@ -25,7 +25,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default="HuggingFaceH4/zephyr-7b-beta")
     parser.add_argument("--model-revision", default=None)
-    parser.add_argument("--input", type=Path, default=Path(__file__).resolve().parent / "datasets/prompts.csv")
+    parser.add_argument("--input", type=Path, default=Path(__file__).resolve().parents[1] / "datasets/prompts.csv")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     if args.output.exists():

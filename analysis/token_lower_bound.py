@@ -4,7 +4,7 @@ import csv
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "https://github.com/huggingface/transformers/blob/v4.57.6/src/transformers/models/clip/tokenization_clip.py"
 
 
