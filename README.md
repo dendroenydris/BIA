@@ -100,7 +100,8 @@ of the plan. File names in the plan refer to the working copies of the scripts l
 
 Analysis needs Python 3.10 or later with numpy and scipy (`pip install -r requirements.txt` installs everything,
 including the model libraries). The commands below rewrite the files in `results/` from the stored records; the
-results are byte-identical with scipy 1.14 (other scipy versions change the last digits of t-quantiles).
+results are byte-identical with scipy 1.14 (other scipy versions change the last digits of t-quantiles; under Python
+3.12 and later `step_count_check.py` writes one zero difference as `0.0` instead of `-0.0`).
 
 | Result | Command | Output |
 |---|---|---|
