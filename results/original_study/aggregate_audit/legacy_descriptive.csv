@@ -1,0 +1,13 @@
+category,strategy,fixed_label_count,legacy_mad_observed_labels,label_imbalance_mad,concept_similarity,reference_similarity,image_n,prompt_n,inference
+Gender Bias,Baseline,2,0.03488372093023254,0.03488372093023254,0.2990265734281959,0.22744909448679104,not saved,not saved,descriptive only
+Skin Tone Bias,Baseline,3,0.27450980392156865,0.27450980392156865,0.22446620123448716,0.24481494680923574,not saved,not saved,descriptive only
+Ethnic Representation Bias,Baseline,5,0.1127450980392157,0.13019607843137254,0.2366087938251059,0.20695448321065094,not saved,not saved,descriptive only
+Geo-Cultural Bias,Baseline,10,0.0864345738295318,0.0811764705882353,0.2740105567244338,0.2828664957892661,not saved,not saved,descriptive only
+Gender Bias,Bias-aware,2,0.17500000000000002,0.17500000000000002,0.29442457849573755,0.23277046618362268,not saved,not saved,descriptive only
+Skin Tone Bias,Bias-aware,3,0.15686274509803924,0.15686274509803924,0.2378640514037578,0.260574489393655,not saved,not saved,descriptive only
+Ethnic Representation Bias,Bias-aware,5,0.21019607843137253,0.21019607843137253,0.23416797344396315,0.21828493816790237,not saved,not saved,descriptive only
+Geo-Cultural Bias,Bias-aware,10,0.10884353741496598,0.10181818181818182,0.2791697859989874,0.28596062476586814,not saved,not saved,descriptive only
+Gender Bias,LLM-assisted,2,0.16666666666666666,0.16666666666666666,0.27402580980165503,0.2162506972198133,not saved,not saved,descriptive only
+Skin Tone Bias,LLM-assisted,3,0.0892857142857143,0.22222222222222224,0.2290659380766253,0.24882379826158285,not saved,not saved,descriptive only
+Ethnic Representation Bias,LLM-assisted,5,0.08035714285714288,0.11,0.23173869164320568,0.21258593084556715,not saved,not saved,descriptive only
+Geo-Cultural Bias,LLM-assisted,10,0.1388888888888889,0.11,0.2629648884292692,0.2729810628419121,not saved,not saved,descriptive only

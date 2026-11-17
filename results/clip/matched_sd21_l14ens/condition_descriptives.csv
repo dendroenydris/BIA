@@ -1,0 +1,9 @@
+axis,arm,prompts,prompts_with_substantive,mean_label_mad,mean_non_substantive_share
+culture,C,8,8,0.122,0.0
+culture,I,8,8,0.12100000000000001,0.0
+ethnicity,C,12,12,0.16466666666666668,0.0
+ethnicity,I,12,12,0.17666666666666667,0.0
+gender,C,11,11,0.3909090909090909,0.0
+gender,I,11,11,0.39454545454545453,0.0
+skin_tone,C,12,12,0.24074074074074076,0.0
+skin_tone,I,12,12,0.2714814814814815,0.0

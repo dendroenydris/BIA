@@ -1,0 +1,61 @@
+category,strategy,label,count,image_n,proportion
+Ethnic Representation Bias,Baseline,a white person,6,60,0.1
+Ethnic Representation Bias,Baseline,a Black person,10,60,0.16666666666666666
+Ethnic Representation Bias,Baseline,an Asian person,17,60,0.2833333333333333
+Ethnic Representation Bias,Baseline,a Latino person,27,60,0.45
+Ethnic Representation Bias,Baseline,a racially diverse group of people,0,60,0.0
+Ethnic Representation Bias,Bias-aware,a white person,2,60,0.03333333333333333
+Ethnic Representation Bias,Bias-aware,a Black person,43,60,0.7166666666666667
+Ethnic Representation Bias,Bias-aware,an Asian person,8,60,0.13333333333333333
+Ethnic Representation Bias,Bias-aware,a Latino person,2,60,0.03333333333333333
+Ethnic Representation Bias,Bias-aware,a racially diverse group of people,5,60,0.08333333333333333
+Ethnic Representation Bias,LLM-assisted,a white person,0,60,0.0
+Ethnic Representation Bias,LLM-assisted,a Black person,20,60,0.3333333333333333
+Ethnic Representation Bias,LLM-assisted,an Asian person,7,60,0.11666666666666667
+Ethnic Representation Bias,LLM-assisted,a Latino person,20,60,0.3333333333333333
+Ethnic Representation Bias,LLM-assisted,a racially diverse group of people,13,60,0.21666666666666667
+Gender Bias,Baseline,a man,27,55,0.4909090909090909
+Gender Bias,Baseline,a woman,28,55,0.509090909090909
+Gender Bias,Bias-aware,a man,22,55,0.4
+Gender Bias,Bias-aware,a woman,33,55,0.6
+Gender Bias,LLM-assisted,a man,15,55,0.2727272727272727
+Gender Bias,LLM-assisted,a woman,40,55,0.7272727272727273
+Geo-Cultural Bias,Baseline,a Western person,0,40,0.0
+Geo-Cultural Bias,Baseline,an East Asian person,4,40,0.1
+Geo-Cultural Bias,Baseline,a Middle Eastern person,4,40,0.1
+Geo-Cultural Bias,Baseline,an African person,0,40,0.0
+Geo-Cultural Bias,Baseline,a South Asian person,5,40,0.125
+Geo-Cultural Bias,Baseline,a Western environment,1,40,0.025
+Geo-Cultural Bias,Baseline,an East Asian environment,3,40,0.075
+Geo-Cultural Bias,Baseline,a Middle Eastern environment,3,40,0.075
+Geo-Cultural Bias,Baseline,an African environment,0,40,0.0
+Geo-Cultural Bias,Baseline,a South Asian environment,20,40,0.5
+Geo-Cultural Bias,Bias-aware,a Western person,0,40,0.0
+Geo-Cultural Bias,Bias-aware,an East Asian person,7,40,0.175
+Geo-Cultural Bias,Bias-aware,a Middle Eastern person,1,40,0.025
+Geo-Cultural Bias,Bias-aware,an African person,4,40,0.1
+Geo-Cultural Bias,Bias-aware,a South Asian person,7,40,0.175
+Geo-Cultural Bias,Bias-aware,a Western environment,0,40,0.0
+Geo-Cultural Bias,Bias-aware,an East Asian environment,1,40,0.025
+Geo-Cultural Bias,Bias-aware,a Middle Eastern environment,1,40,0.025
+Geo-Cultural Bias,Bias-aware,an African environment,0,40,0.0
+Geo-Cultural Bias,Bias-aware,a South Asian environment,19,40,0.475
+Geo-Cultural Bias,LLM-assisted,a Western person,0,40,0.0
+Geo-Cultural Bias,LLM-assisted,an East Asian person,0,40,0.0
+Geo-Cultural Bias,LLM-assisted,a Middle Eastern person,0,40,0.0
+Geo-Cultural Bias,LLM-assisted,an African person,3,40,0.075
+Geo-Cultural Bias,LLM-assisted,a South Asian person,11,40,0.275
+Geo-Cultural Bias,LLM-assisted,a Western environment,3,40,0.075
+Geo-Cultural Bias,LLM-assisted,an East Asian environment,2,40,0.05
+Geo-Cultural Bias,LLM-assisted,a Middle Eastern environment,1,40,0.025
+Geo-Cultural Bias,LLM-assisted,an African environment,1,40,0.025
+Geo-Cultural Bias,LLM-assisted,a South Asian environment,19,40,0.475
+Skin Tone Bias,Baseline,a person with light skin,2,60,0.03333333333333333
+Skin Tone Bias,Baseline,a person with medium skin,43,60,0.7166666666666667
+Skin Tone Bias,Baseline,a person with dark skin,15,60,0.25
+Skin Tone Bias,Bias-aware,a person with light skin,5,60,0.08333333333333333
+Skin Tone Bias,Bias-aware,a person with medium skin,20,60,0.3333333333333333
+Skin Tone Bias,Bias-aware,a person with dark skin,35,60,0.5833333333333334
+Skin Tone Bias,LLM-assisted,a person with light skin,0,60,0.0
+Skin Tone Bias,LLM-assisted,a person with medium skin,35,60,0.5833333333333334
+Skin Tone Bias,LLM-assisted,a person with dark skin,25,60,0.4166666666666667

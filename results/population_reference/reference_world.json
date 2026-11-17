@@ -1,0 +1,39 @@
+{
+  "ethnicity": {
+    "white": 0.14410685121250685,
+    "black": 0.15411275054642526,
+    "east_asian": 0.20533109202159358,
+    "south_southeast_asian": 0.3307432919043631,
+    "middle_eastern": 0.0834471254286587,
+    "latino": 0.08225888888645248
+  },
+  "culture": {
+    "western_european": 0.15769842151831298,
+    "south_asian": 0.267621729506886,
+    "east_asian": 0.22469708294914517,
+    "middle_eastern": 0.09131751786689554,
+    "african": 0.1686480364571836,
+    "latin_american": 0.09001721170157675
+  },
+  "age": {
+    "child": 0.2135098174875967,
+    "teenager": 0.113364797213464,
+    "young_adult": 0.23801390350494137,
+    "middle_aged": 0.29853971924147016,
+    "older_adult": 0.13657176255252776
+  },
+  "gender": {
+    "woman": 0.5,
+    "man": 0.5
+  },
+  "skin_tone": {
+    "light": 0.3333333333333333,
+    "medium": 0.3333333333333333,
+    "dark": 0.3333333333333333
+  },
+  "_source": "UN DESA World Population Prospects 2024, medium variant, 1 July 2024",
+  "_coverage": {
+    "ethnicity_share_of_world": 0.9881906697002805,
+    "culture_share_of_world": 0.9030213773671083
+  }
+}

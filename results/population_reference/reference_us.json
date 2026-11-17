@@ -1,0 +1,81 @@
+{
+  "gender": {
+    "woman": 0.5,
+    "man": 0.5
+  },
+  "skin_tone": {
+    "light": 0.3333333333333333,
+    "medium": 0.3333333333333333,
+    "dark": 0.3333333333333333
+  },
+  "ethnicity": {
+    "white": 0.597933345331267,
+    "middle_eastern": 0.011128825374739349,
+    "black": 0.13066385669125397,
+    "east_asian": 0.0273762439229176,
+    "south_southeast_asian": 0.03584820286317302,
+    "latino": 0.1970495258166491
+  },
+  "age": {
+    "child": 0.14868437595868783,
+    "teenager": 0.09047382776605747,
+    "young_adult": 0.21525068670890024,
+    "middle_aged": 0.3160666436284852,
+    "older_adult": 0.22952446593786924
+  },
+  "culture": {
+    "western_european": 0.16666666666666666,
+    "south_asian": 0.16666666666666666,
+    "east_asian": 0.16666666666666666,
+    "middle_eastern": 0.16666666666666666,
+    "african": 0.16666666666666666,
+    "latin_american": 0.16666666666666666
+  },
+  "_by_entry": {
+    "gender": {
+      "1": {
+        "woman": 0.4054890219560878,
+        "man": 0.5945109780439122
+      },
+      "2": {
+        "woman": 0.873,
+        "man": 0.127
+      },
+      "3": {
+        "woman": 0.494,
+        "man": 0.506
+      },
+      "6": {
+        "woman": 0.33,
+        "man": 0.6699999999999999
+      },
+      "7": {
+        "woman": 0.9247943570265871,
+        "man": 0.07520564297341292
+      },
+      "8": {
+        "woman": 0.92,
+        "man": 0.07999999999999996
+      },
+      "9": {
+        "woman": 0.051,
+        "man": 0.949
+      },
+      "10": {
+        "woman": 0.264,
+        "man": 0.736
+      }
+    },
+    "ethnicity": {
+      "17": {
+        "white": 0.6341596579640087,
+        "middle_eastern": 0.011803074955245919,
+        "black": 0.08592132505175984,
+        "east_asian": 0.06902913292544367,
+        "south_southeast_asian": 0.09039115692962876,
+        "latino": 0.10869565217391304
+      }
+    }
+  },
+  "_notes": "Athlete (5), parent (4) and couple (11): 1/2; makeup artist (8): hairdressers, hairstylists and cosmetologists; BLS race columns include Hispanic respondents, so the Hispanic share is taken out of White for the scientist prompt."
+}

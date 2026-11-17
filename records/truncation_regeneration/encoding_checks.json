@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "entries": [
+    {
+      "entry": 14,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 15,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 16,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 17,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 18,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 19,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 22,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    },
+    {
+      "entry": 23,
+      "T_vs_pipeline_max_abs_diff": 0.0,
+      "negative_vs_pipeline_max_abs_diff": 0.0
+    }
+  ],
+  "device": "NVIDIA A100-SXM4-40GB"
+}

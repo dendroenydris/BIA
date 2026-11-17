@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "dtype": "torch.bfloat16",
+  "device": "cuda",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "torch": "2.12.1+cu130",
+  "transformers": "4.57.1",
+  "python": "3.12.13",
+  "decoding": "greedy",
+  "max_new_tokens": 200,
+  "batch": 32,
+  "prompt_sha256": "c47e0d383d9a06a3307a60fa702fe2260b364008ae6982cfc7f28cdb1c21a5dd",
+  "codebook_sha256": "eac7ded8986e0c8c1ea9924db52f6bb71a0f86a0122584948c88484f89cb3f3d",
+  "manifest_sha256": "f5241653dc091794900b08d03a9d6c0bae7d08b321b23c2e80eac57d7aa4ba95",
+  "script_sha256": "6d0e1122104fa9c76ba0e445e2136a11287963e05717a1d55bcd6691d1ab3d1e"
+}

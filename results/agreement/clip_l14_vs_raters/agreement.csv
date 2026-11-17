@@ -1,0 +1,29 @@
+scope,axis,human_field,rater,n_coded,n_comparable,agree,pct_agree,kappa,kappa_ci95,clip_dist,human_dist
+as_used,Gender Bias,gender_presentation,A,15,14,12,0.8571,0.0,"[0.0, 0.0]","{'man': 12, 'woman': 2}",{'man': 14}
+as_used,Gender Bias,gender_presentation,B,15,15,15,1.0,1.0,"[1.0, 1.0]","{'man': 12, 'woman': 3}","{'man': 12, 'woman': 3}"
+as_used,Gender Bias,gender_presentation,A=B consensus,,12,12,1.0,,,{'man': 12},{'man': 12}
+as_used,Gender Bias,gender_presentation,A vs B (reference),,15,,0.8,0.2105,,,
+as_used,Skin Tone Bias,skin_tone,A,15,14,7,0.5,0.1967,"[0.023, 0.462]","{'dark': 10, 'medium': 3, 'light': 1}","{'dark': 6, 'light': 5, 'medium': 3}"
+as_used,Skin Tone Bias,skin_tone,B,15,8,4,0.5,0.0,"[0.0, 0.0]",{'dark': 8},"{'medium': 1, 'light': 3, 'dark': 4}"
+as_used,Skin Tone Bias,skin_tone,A=B consensus,,5,4,0.8,0.0,,{'dark': 5},"{'light': 1, 'dark': 4}"
+as_used,Skin Tone Bias,skin_tone,A vs B (reference),,15,,0.4,0.2582,,,
+as_used,Ethnic Representation Bias,ethnic_appearance,A,15,14,10,0.7143,0.5882,"[0.333, 0.884]","{'black': 7, 'white': 2, 'latino': 4, 'asian': 1}","{'black': 6, 'white': 5, 'latino': 2, 'mixed': 1}"
+as_used,Ethnic Representation Bias,ethnic_appearance,B,0,0,,,,,,
+as_used,Geo-Cultural Bias,cultural_scene,A,15,6,2,0.3333,0.2,"[0.143, 0.4]","{'east_asian': 2, 'african': 1, 'western': 1, 'middle_eastern': 2}","{'western': 5, 'african': 1}"
+as_used,Geo-Cultural Bias,cultural_scene,B,15,6,2,0.3333,0.2,"[0.143, 0.4]","{'east_asian': 2, 'african': 1, 'western': 1, 'middle_eastern': 2}","{'western': 5, 'african': 1}"
+as_used,Geo-Cultural Bias,cultural_scene,A=B consensus,,6,2,0.3333,0.2,,"{'east_asian': 2, 'african': 1, 'western': 1, 'middle_eastern': 2}","{'western': 5, 'african': 1}"
+as_used,Geo-Cultural Bias,cultural_scene,A vs B (reference),,15,,1.0,1.0,,,
+all_60,Gender Bias,gender_presentation,A,60,37,34,0.9189,0.8311,"[0.673, 0.945]","{'woman': 24, 'man': 13}","{'woman': 21, 'man': 16}"
+all_60,Gender Bias,gender_presentation,B,60,35,35,1.0,1.0,"[1.0, 1.0]","{'woman': 22, 'man': 13}","{'woman': 22, 'man': 13}"
+all_60,Gender Bias,gender_presentation,A=B consensus,,31,31,1.0,1.0,,"{'woman': 19, 'man': 12}","{'woman': 19, 'man': 12}"
+all_60,Gender Bias,gender_presentation,A vs B (reference),,60,,0.8333,0.7642,,,
+all_60,Skin Tone Bias,skin_tone,A,60,48,21,0.4375,0.1692,"[0.033, 0.319]","{'dark': 20, 'medium': 26, 'light': 2}","{'dark': 8, 'light': 19, 'medium': 21}"
+all_60,Skin Tone Bias,skin_tone,B,60,37,8,0.2162,0.0504,"[-0.046, 0.131]","{'dark': 13, 'light': 1, 'medium': 23}","{'medium': 7, 'light': 26, 'dark': 4}"
+all_60,Skin Tone Bias,skin_tone,A=B consensus,,24,8,0.3333,0.1273,,"{'dark': 8, 'light': 1, 'medium': 15}","{'medium': 6, 'light': 14, 'dark': 4}"
+all_60,Skin Tone Bias,skin_tone,A vs B (reference),,60,,0.6,0.4784,,,
+all_60,Ethnic Representation Bias,ethnic_appearance,A,60,56,19,0.3393,0.1916,"[0.089, 0.298]","{'black': 16, 'white': 9, 'asian': 6, 'latino': 17, 'mixed': 8}","{'black': 8, 'white': 27, 'mixed': 16, 'latino': 4, 'asian': 1}"
+all_60,Ethnic Representation Bias,ethnic_appearance,B,0,0,,,,,,
+all_60,Geo-Cultural Bias,cultural_scene,A,60,40,20,0.5,0.2939,"[0.223, 0.375]","{'african': 7, 'western': 13, 'east_asian': 5, 'south_asian': 2, 'middle_eastern': 13}","{'african': 7, 'western': 31, 'middle_eastern': 1, 'south_asian': 1}"
+all_60,Geo-Cultural Bias,cultural_scene,B,60,34,15,0.4412,0.0678,"[0.056, 0.084]","{'western': 14, 'east_asian': 4, 'south_asian': 2, 'middle_eastern': 13, 'african': 1}","{'western': 33, 'african': 1}"
+all_60,Geo-Cultural Bias,cultural_scene,A=B consensus,,28,11,0.3929,0.0721,,"{'western': 10, 'east_asian': 4, 'south_asian': 1, 'middle_eastern': 12, 'african': 1}","{'western': 27, 'african': 1}"
+all_60,Geo-Cultural Bias,cultural_scene,A vs B (reference),,60,,0.65,0.4699,,,

@@ -1,0 +1,67 @@
+category,strategy,legacy_metric,value
+Gender Bias,Baseline,Embedding Distance - occupation_related,0.3011899656334589
+Gender Bias,Baseline,Embedding Distance - power_related,0.29496864165908604
+Gender Bias,Baseline,Embedding Distance - default_gender,0.3009211129920427
+Gender Bias,Baseline,Stereotype Freq - visual_attributes,0.2163279042687527
+Gender Bias,Baseline,Stereotype Freq - activity_association,0.20598891793295396
+Gender Bias,Baseline,Stereotype Freq - role_swapping,0.26003046125866647
+Skin Tone Bias,Baseline,Embedding Distance - skin_tone_default,0.2644854549294204
+Skin Tone Bias,Baseline,Embedding Distance - occupation_skin_tone,0.18444694753955393
+Skin Tone Bias,Baseline,Stereotype Freq - appearance_bias,0.21004998946891112
+Skin Tone Bias,Baseline,Stereotype Freq - visibility_bias,0.27957990414956035
+Ethnic Representation Bias,Baseline,Embedding Distance - ethnicity_default,0.2690666789809863
+Ethnic Representation Bias,Baseline,Embedding Distance - ethnicity_occupation,0.18785890542409
+Ethnic Representation Bias,Baseline,Embedding Distance - power_and_visibility,0.25290079707024143
+Ethnic Representation Bias,Baseline,Stereotype Freq - clothing_bias,0.21187061334357543
+Ethnic Representation Bias,Baseline,Stereotype Freq - criminality,0.2070556765093523
+Ethnic Representation Bias,Baseline,Stereotype Freq - wealth_representation,0.20193715977902507
+Geo-Cultural Bias,Baseline,Embedding Distance - culture_norm,0.27937931094099494
+Geo-Cultural Bias,Baseline,Embedding Distance - traditional_attire,0.26110529012101535
+Geo-Cultural Bias,Baseline,Embedding Distance - default_culture,0.2815470691112911
+Geo-Cultural Bias,Baseline,Stereotype Freq - poverty_representation,0.2788907477960867
+Geo-Cultural Bias,Baseline,Stereotype Freq - modernity,0.286153582527357
+Geo-Cultural Bias,Baseline,Stereotype Freq - environmental_context,0.28355515704435463
+Gender Bias,Bias-aware,Embedding Distance - occupation_related,0.29621373442932963
+Gender Bias,Bias-aware,Embedding Distance - power_related,0.2877777852738897
+Gender Bias,Bias-aware,Embedding Distance - default_gender,0.2992822157839934
+Gender Bias,Bias-aware,Stereotype Freq - visual_attributes,0.22395879067480565
+Gender Bias,Bias-aware,Stereotype Freq - activity_association,0.21015299409627913
+Gender Bias,Bias-aware,Stereotype Freq - role_swapping,0.26419961377978324
+Skin Tone Bias,Bias-aware,Embedding Distance - skin_tone_default,0.26504796908961403
+Skin Tone Bias,Bias-aware,Embedding Distance - occupation_skin_tone,0.21068013371790156
+Skin Tone Bias,Bias-aware,Stereotype Freq - appearance_bias,0.23342124270457848
+Skin Tone Bias,Bias-aware,Stereotype Freq - visibility_bias,0.2877277360827315
+Ethnic Representation Bias,Bias-aware,Embedding Distance - ethnicity_default,0.262284886530217
+Ethnic Representation Bias,Bias-aware,Embedding Distance - ethnicity_occupation,0.1907888717365031
+Ethnic Representation Bias,Bias-aware,Embedding Distance - power_and_visibility,0.24943016206516938
+Ethnic Representation Bias,Bias-aware,Stereotype Freq - clothing_bias,0.2233413370216594
+Ethnic Representation Bias,Bias-aware,Stereotype Freq - criminality,0.22564284152844372
+Ethnic Representation Bias,Bias-aware,Stereotype Freq - wealth_representation,0.205870635953604
+Geo-Cultural Bias,Bias-aware,Embedding Distance - culture_norm,0.2804678819396279
+Geo-Cultural Bias,Bias-aware,Embedding Distance - traditional_attire,0.2715547097225984
+Geo-Cultural Bias,Bias-aware,Embedding Distance - default_culture,0.28548676633473596
+Geo-Cultural Bias,Bias-aware,Stereotype Freq - poverty_representation,0.28466261878158106
+Geo-Cultural Bias,Bias-aware,Stereotype Freq - modernity,0.2884900773113424
+Geo-Cultural Bias,Bias-aware,Stereotype Freq - environmental_context,0.2847291782046809
+Gender Bias,LLM-assisted,Embedding Distance - occupation_related,0.2740115933948093
+Gender Bias,LLM-assisted,Embedding Distance - power_related,0.2687911053498586
+Gender Bias,LLM-assisted,Embedding Distance - default_gender,0.27927473066029723
+Gender Bias,LLM-assisted,Stereotype Freq - visual_attributes,0.2072540541489919
+Gender Bias,LLM-assisted,Stereotype Freq - activity_association,0.1958939211236106
+Gender Bias,LLM-assisted,Stereotype Freq - role_swapping,0.24560411638683743
+Skin Tone Bias,LLM-assisted,Embedding Distance - skin_tone_default,0.2610541182082324
+Skin Tone Bias,LLM-assisted,Embedding Distance - occupation_skin_tone,0.19707775794501817
+Skin Tone Bias,LLM-assisted,Stereotype Freq - appearance_bias,0.215865750930139
+Skin Tone Bias,LLM-assisted,Stereotype Freq - visibility_bias,0.2817818455930267
+Ethnic Representation Bias,LLM-assisted,Embedding Distance - ethnicity_default,0.2616510234906205
+Ethnic Representation Bias,LLM-assisted,Embedding Distance - ethnicity_occupation,0.18773955356196634
+Ethnic Representation Bias,LLM-assisted,Embedding Distance - power_and_visibility,0.24582549787703015
+Ethnic Representation Bias,LLM-assisted,Stereotype Freq - clothing_bias,0.21523440043841088
+Ethnic Representation Bias,LLM-assisted,Stereotype Freq - criminality,0.2125216874160937
+Ethnic Representation Bias,LLM-assisted,Stereotype Freq - wealth_representation,0.2100017046821969
+Geo-Cultural Bias,LLM-assisted,Embedding Distance - culture_norm,0.2706233841367066
+Geo-Cultural Bias,LLM-assisted,Embedding Distance - traditional_attire,0.24957914906553924
+Geo-Cultural Bias,LLM-assisted,Embedding Distance - default_culture,0.26869213208556175
+Geo-Cultural Bias,LLM-assisted,Stereotype Freq - poverty_representation,0.270871601998806
+Geo-Cultural Bias,LLM-assisted,Stereotype Freq - modernity,0.2731356965377927
+Geo-Cultural Bias,LLM-assisted,Stereotype Freq - environmental_context,0.27493588998913765

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "record_count": 430,
+  "unique_images": 310,
+  "per_image_sha256": "0ac178647380dc172da3de1b1d896dfa28bd054a96bbdee45daf3d21e2ec779d",
+  "generation_receipts_sha256": "1961a2f6582e358ce2af7dc29e509cd91ae915e1aba3c4da3bda46c61bf3c083",
+  "concepts_sha256": "5438e9f454809fd6f16eb7f0f12f3c5061459151d3416abc7735778bd1fbe995",
+  "clip_weights_sha256": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+  "evaluation_device": "cpu",
+  "tokenizer_class": "CLIPTokenizer",
+  "processor_use_fast": false,
+  "primary_family": 4,
+  "secondary_family": 8,
+  "human_ratings_conducted": false
+}

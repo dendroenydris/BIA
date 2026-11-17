@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "images": 310,
+  "axis_records": 430,
+  "prompt_arm_axis_cells": 86,
+  "paired_latent_blocks": 155,
+  "comparisons": 12,
+  "family_sizes": [
+    4,
+    8
+  ],
+  "all_planned_holm_p": 1.0,
+  "normality_flags_descriptive": [
+    {
+      "category": "Ethnic Representation Bias",
+      "metric": "label_imbalance_mad",
+      "shapiro_p": 0.0028956452220173685
+    },
+    {
+      "category": "Gender Bias",
+      "metric": "label_imbalance_mad",
+      "shapiro_p": 0.018276866978813127
+    },
+    {
+      "category": "Geo-Cultural Bias",
+      "metric": "concept_similarity",
+      "shapiro_p": 0.024396816419449747
+    },
+    {
+      "category": "Skin Tone Bias",
+      "metric": "label_imbalance_mad",
+      "shapiro_p": 0.005956725994208553
+    }
+  ],
+  "exploratory_bootstrap_seed": 20261012,
+  "exploratory_bootstrap_resamples": 20000,
+  "exploratory_additions": "Post-hoc percentile paired-prompt bootstrap and exact two-sided sign tests; separate 4/8-test sensitivity families; do not replace planned sign-flip comparisons.",
+  "assumptions": [
+    "Selected prompt entries are the independent analysis units; repeated or related tasks limit exchangeability and population generalization.",
+    "Sign-flip inference assumes sign exchangeability/symmetry. Randomized within-pair generation order does not establish randomized treatment assignment across prompt tasks.",
+    "Paired-t intervals are unadjusted, assume normal prompt differences, and are not simultaneous intervals; several discrete MAD differences are non-normal.",
+    "Bootstrap intervals are exploratory and conditional on small selected prompt samples; non-rejection of Shapiro does not establish normality.",
+    "Non-significance is neither absence nor equivalence; fixed CLIP diagnostics do not establish semantic fidelity, human reliability, or ethical fairness."
+  ],
+  "image_file_and_pixel_verification_performed": true,
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "files_sha256": {
+    "per_image.jsonl": "0ac178647380dc172da3de1b1d896dfa28bd054a96bbdee45daf3d21e2ec779d",
+    "generation_receipts.jsonl": "1961a2f6582e358ce2af7dc29e509cd91ae915e1aba3c4da3bda46c61bf3c083",
+    "execution_config.json": "34fa276307cdec02581653e5ba8f59c7cc340f978c9eed6dfdb4ca13ceb82b42",
+    "prompt_comparisons.csv": "f382fe3ec51aacb1dc638bb1eeee88ef848e8d79fb944c26a937d1b247751f92",
+    "independent_comparisons.csv": "50601df36d4b8ea5a054cf3278c7ab1603be4b62671bb12e44b7c5a556e8c61e",
+    "condition_means_sd.csv": "560287c15058bb866d72a5ee1f7245d4841493d31da138f3fd882388bcc085bf",
+    "prompt_differences.csv": "2c9e2377ee20bb77e7be86892a78e66bcf852342f650ec48e80c788912bd16ee"
+  },
+  "audit_source_sha256": "05b70b1fb05736441dcac14afb39f53fc77b02bfa3a3efa86420dfdf7f06a018"
+}

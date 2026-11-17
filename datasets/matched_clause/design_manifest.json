@@ -1,0 +1,18 @@
+{
+  "model": "black-forest-labs/FLUX.1-schnell",
+  "master_seed": 20261116,
+  "prompt_entries": 31,
+  "repetitions": 50,
+  "planned_images": 3100,
+  "height": 768,
+  "width": 768,
+  "steps": 4,
+  "guidance_scale": 0.0,
+  "max_sequence_length": 256,
+  "seed_rule": "reps 1-5: matched_instruction_probe seeds; reps 6-50: sha256(master:entry:rep) mod 2**63; shared across arms",
+  "latent_rule": "torch.randn((1,16,96,96), cpu generator, float32) -> bf16 -> FluxPipeline._pack_latents",
+  "files_sha256": {
+    "prompt_pairs.csv (source)": "1baea32e08e51ff522acb1924e768b66ce6655bdb28eb779104d8753e03a5805",
+    "generation_schedule.csv": "d9842a52f9b91a734d641d37a89752175f04cff571e6f86bbab252c9c0288fde"
+  }
+}

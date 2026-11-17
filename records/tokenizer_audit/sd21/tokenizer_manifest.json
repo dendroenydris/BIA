@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "records": 120,
+  "max_length": 77,
+  "truncation_side": "right",
+  "transformers": "4.57.6",
+  "tokenizer_class": "CLIPTokenizer",
+  "preprocessing_path": "BasicTokenizer fallback; ftfy unavailable",
+  "historical_revision_verified": false,
+  "tokenizer_files_sha256": {
+    "download_manifest.json": "1a8f8c463e74346e0a2adfa29e87e2d8e4f883f06e7428f3fe60890d3b2487da",
+    "tokenizer_config.json": "87a3154f0990fd992fd59f9d42c39520155b3d77cd543efe3f2bf011726f379d",
+    "special_tokens_map.json": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+    "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "vocab.json": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+  }
+}

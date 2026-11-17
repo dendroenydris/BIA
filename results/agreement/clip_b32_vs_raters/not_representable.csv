@@ -1,0 +1,23 @@
+scope,axis,rater,human_code_not_in_clip_labels,n
+as_used,Gender Bias,A,indeterminate,1
+as_used,Skin Tone Bias,A,mixed,1
+as_used,Skin Tone Bias,B,indeterminate,6
+as_used,Skin Tone Bias,B,mixed,1
+as_used,Ethnic Representation Bias,A,middle_eastern,1
+as_used,Geo-Cultural Bias,A,mixed,9
+as_used,Geo-Cultural Bias,B,mixed,9
+all_60,Gender Bias,A,indeterminate,5
+all_60,Gender Bias,A,mixed,18
+all_60,Gender Bias,B,indeterminate,5
+all_60,Gender Bias,B,mixed,20
+all_60,Skin Tone Bias,A,indeterminate,2
+all_60,Skin Tone Bias,A,mixed,10
+all_60,Skin Tone Bias,B,indeterminate,8
+all_60,Skin Tone Bias,B,mixed,15
+all_60,Ethnic Representation Bias,A,indeterminate,3
+all_60,Ethnic Representation Bias,A,middle_eastern,1
+all_60,Geo-Cultural Bias,A,latin_american,3
+all_60,Geo-Cultural Bias,A,mixed,12
+all_60,Geo-Cultural Bias,A,none_or_indeterminate,5
+all_60,Geo-Cultural Bias,B,mixed,9
+all_60,Geo-Cultural Bias,B,none_or_indeterminate,17

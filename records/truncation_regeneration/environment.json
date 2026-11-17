@@ -1,0 +1,13 @@
+{
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "torch": "2.11.0+cu130",
+ "diffusers": "0.35.2",
+ "transformers": "4.57.6",
+ "clip_files_sha256": {
+  "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f",
+  "model.safetensors": "99d28a652e6ec46629ab7047a0ac82c69b1fe11e0ce672c43af65d3a9a3fc05d"
+ },
+ "clip_snapshot": [
+  "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+ ]
+}

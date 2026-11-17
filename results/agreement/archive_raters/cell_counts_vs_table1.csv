@@ -1,0 +1,19 @@
+entry,field,condition,table1_consensus,new_A,new_B,old_A,old_B
+A12,ethnic_appearance,baseline,White 5,white 5,not coded 5,n/a,n/a
+A12,ethnic_appearance,bias_aware,Black 5,black 5,not coded 5,n/a,n/a
+A12,ethnic_appearance,llm_assisted,South/SE Asian 2; Black 1; Middle Eastern 1; mixed 1,latino 2; black 1; middle_eastern 1; mixed 1,not coded 5,n/a,n/a
+A12,skin_tone,baseline,White 5,light 5,indeterminate 4; light 1,light 3; no_person 2,light 3; no_person 2
+A12,skin_tone,bias_aware,Black 5,dark 5,dark 4; indeterminate 1,dark 3; medium 2,dark 3; medium 2
+A12,skin_tone,llm_assisted,South/SE Asian 2; Black 1; Middle Eastern 1; mixed 1,medium 3; dark 1; mixed 1,light 2; indeterminate 1; medium 1; mixed 1,no_person 2; indeterminate 1; light 1; medium 1,light 2; indeterminate 1; mixed 1; no_person 1
+A10,gender_presentation,baseline,man 3; woman 2,man 5,man 5,man 5,man 5
+A10,gender_presentation,bias_aware,man 3; woman 2,man 5,man 5,man 5,man 5
+A10,gender_presentation,llm_assisted,woman 2; mixed 3,man 4; indeterminate 1,woman 3; man 2,indeterminate 2; man 1; unresolved_count 1; woman 1,indeterminate 2; man 1; unresolved_count 1; woman 1
+A10,person_count,baseline,man 3; woman 2,1 5,1 5,1 5,1 5
+A10,person_count,bias_aware,man 3; woman 2,1 5,1 5,1 5,1 5
+A10,person_count,llm_assisted,woman 2; mixed 3,1 5,1 5,1 4; indeterminate 1,1 4; indeterminate 1
+A32,age_appearance,baseline,child 2; young adult 2; indeterminate 1,young_adult 2; child 1; indeterminate 1; teenager 1,child 2; indeterminate 1; mixed 1; young_adult 1,child 1; indeterminate 1; mixed 1; unresolved_count 1; young_adult 1,child 1; indeterminate 1; mixed 1; unresolved_count 1; young_adult 1
+A32,age_appearance,bias_aware,middle-aged 2; young adult 1; indeterminate 2,indeterminate 2; middle_aged 1; teenager 1; young_adult 1,indeterminate 3; middle_aged 1; teenager 1,unresolved_count 2; young_adult 2; indeterminate 1,indeterminate 2; young_adult 2; unresolved_count 1
+A32,age_appearance,llm_assisted,teenager 4; young adult 1,young_adult 5,mixed 4; young_adult 1,unresolved_count 3; mixed 1; young_adult 1,young_adult 3; mixed 1; unresolved_count 1
+A33,cultural_scene,baseline,Western/European 5,western_european 5,western_european 5,n/a,n/a
+A33,cultural_scene,bias_aware,Western/European 2; South Asian 2; African 1,mixed 5,mixed 5,n/a,n/a
+A33,cultural_scene,llm_assisted,African 2; South Asian 1; mixed 2,mixed 4; african 1,mixed 4; african 1,n/a,n/a

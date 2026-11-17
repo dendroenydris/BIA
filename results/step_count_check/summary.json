@@ -1,0 +1,42 @@
+{
+  "gender_presentation": {
+    "records": 110,
+    "same_latent_agreement": 0.918,
+    "different_latent_agreement": 0.818,
+    "entries": 11,
+    "mad_diff_25_minus_50": -0.0273,
+    "p_mad": 0.25,
+    "ic_diff_25_minus_50": 0.0545,
+    "p_ic": 0.5625
+  },
+  "skin_tone": {
+    "records": 120,
+    "same_latent_agreement": 0.917,
+    "different_latent_agreement": 0.683,
+    "entries": 12,
+    "mad_diff_25_minus_50": 0.0111,
+    "p_mad": 0.375,
+    "ic_diff_25_minus_50": 0.0222,
+    "p_ic": 0.4375
+  },
+  "ethnic_appearance": {
+    "records": 120,
+    "same_latent_agreement": 0.75,
+    "different_latent_agreement": 0.464,
+    "entries": 12,
+    "mad_diff_25_minus_50": 0.02,
+    "p_mad": 0.328125,
+    "ic_diff_25_minus_50": -0.0,
+    "p_ic": 1.0
+  },
+  "cultural_scene": {
+    "records": 80,
+    "same_latent_agreement": 0.8,
+    "different_latent_agreement": 0.489,
+    "entries": 8,
+    "mad_diff_25_minus_50": -0.0,
+    "p_mad": 1.0,
+    "ic_diff_25_minus_50": -0.01,
+    "p_ic": 0.25
+  }
+}

@@ -1,0 +1,61 @@
+image_id,entry,condition,archive_image_id,clip_Gender Bias,clip_Skin Tone Bias,clip_Ethnic Representation Bias,clip_Geo-Cultural Bias,A_gender_presentation,A_skin_tone,A_ethnic_appearance,A_cultural_scene,B_gender_presentation,B_skin_tone,B_cultural_scene
+H01,A12,llm_assisted,280,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,medium,none_or_indeterminate
+H02,A12,baseline,274,a woman,a person with medium skin,an Asian person,a Middle Eastern person,woman,light,white,western_european,woman,indeterminate,none_or_indeterminate
+H03,A33,llm_assisted,119,a woman,a person with medium skin,an Asian person,a South Asian person,mixed,medium,mixed,mixed,mixed,medium,mixed
+H04,A33,bias_aware,112,a man,a person with medium skin,an Asian person,a South Asian environment,mixed,medium,mixed,mixed,mixed,mixed,mixed
+H05,A12,llm_assisted,282,a woman,a person with medium skin,an Asian person,a South Asian person,woman,medium,latino,latin_american,woman,indeterminate,none_or_indeterminate
+H06,A33,bias_aware,111,a woman,a person with dark skin,a racially diverse group of people,a South Asian person,mixed,medium,mixed,mixed,mixed,mixed,mixed
+H07,A33,bias_aware,113,a woman,a person with dark skin,a racially diverse group of people,an East Asian person,mixed,mixed,mixed,mixed,mixed,mixed,mixed
+H08,A33,llm_assisted,117,a woman,a person with light skin,a racially diverse group of people,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,mixed
+H09,A32,baseline,331,a man,a person with light skin,a Latino person,a South Asian person,man,medium,latino,latin_american,mixed,medium,none_or_indeterminate
+H10,A32,baseline,334,a woman,a person with medium skin,a Latino person,an East Asian person,woman,medium,white,western_european,woman,medium,western_european
+H11,A32,bias_aware,338,a man,a person with light skin,a Latino person,a Middle Eastern person,indeterminate,medium,latino,none_or_indeterminate,man,medium,western_european
+H12,A10,baseline,499,a man,a person with medium skin,a Latino person,a Middle Eastern environment,man,light,white,western_european,man,light,western_european
+H13,A32,baseline,332,a woman,a person with medium skin,an Asian person,a South Asian environment,indeterminate,medium,indeterminate,none_or_indeterminate,indeterminate,light,none_or_indeterminate
+H14,A12,baseline,272,a woman,a person with medium skin,a Latino person,a Middle Eastern person,woman,light,white,western_european,woman,light,western_european
+H15,A12,bias_aware,279,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,dark,none_or_indeterminate
+H16,A12,bias_aware,277,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,indeterminate,none_or_indeterminate
+H17,A32,baseline,333,a man,a person with medium skin,a white person,a Western person,man,light,white,western_european,mixed,light,western_european
+H18,A10,bias_aware,500,a man,a person with medium skin,a Latino person,a Middle Eastern person,man,light,white,western_european,man,light,western_european
+H19,A12,baseline,273,a woman,a person with medium skin,a Latino person,a Middle Eastern person,woman,light,white,western_european,woman,indeterminate,none_or_indeterminate
+H20,A32,bias_aware,337,a woman,a person with light skin,a Latino person,a South Asian environment,indeterminate,mixed,indeterminate,none_or_indeterminate,indeterminate,mixed,none_or_indeterminate
+H21,A33,baseline,105,a woman,a person with medium skin,a Latino person,a Middle Eastern environment,mixed,mixed,mixed,western_european,mixed,mixed,western_european
+H22,A33,bias_aware,110,a woman,a person with medium skin,an Asian person,a South Asian person,mixed,mixed,mixed,mixed,indeterminate,mixed,mixed
+H23,A12,llm_assisted,281,a woman,a person with medium skin,a Latino person,an East Asian person,woman,medium,latino,latin_american,woman,light,none_or_indeterminate
+H24,A32,llm_assisted,342,a woman,a person with medium skin,a racially diverse group of people,a South Asian environment,woman,light,mixed,western_european,woman,mixed,western_european
+H25,A10,baseline,496,a man,a person with medium skin,a Latino person,an East Asian environment,man,medium,white,western_european,man,light,western_european
+H26,A33,llm_assisted,115,a woman,a person with light skin,a racially diverse group of people,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,mixed
+H27,A33,llm_assisted,118,a woman,a person with medium skin,a racially diverse group of people,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,mixed
+H28,A10,baseline,495,a man,a person with medium skin,a Latino person,a Middle Eastern person,man,medium,white,western_european,man,light,western_european
+H29,A10,llm_assisted,507,a man,a person with medium skin,an Asian person,an East Asian environment,man,medium,white,western_european,man,light,western_european
+H30,A32,bias_aware,339,a woman,a person with medium skin,a Latino person,a Middle Eastern person,woman,light,black,none_or_indeterminate,woman,light,western_european
+H31,A12,bias_aware,275,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,dark,none_or_indeterminate
+H32,A10,bias_aware,503,a man,a person with medium skin,a Latino person,an East Asian person,man,light,white,western_european,man,light,western_european
+H33,A12,baseline,270,a woman,a person with medium skin,a white person,a Western person,woman,light,white,western_european,woman,indeterminate,none_or_indeterminate
+H34,A10,baseline,497,a man,a person with medium skin,an Asian person,an East Asian person,man,medium,white,western_european,man,medium,western_european
+H35,A32,bias_aware,335,a woman,a person with medium skin,an Asian person,a Middle Eastern person,woman,light,white,western_european,woman,light,western_european
+H36,A10,bias_aware,504,a man,a person with medium skin,a Latino person,a Middle Eastern person,man,light,white,western_european,man,light,western_european
+H37,A33,baseline,106,a woman,a person with light skin,an Asian person,a South Asian environment,mixed,indeterminate,white,western_european,mixed,indeterminate,western_european
+H38,A12,baseline,271,a woman,a person with medium skin,an Asian person,a Middle Eastern person,woman,light,white,western_european,woman,indeterminate,none_or_indeterminate
+H39,A10,bias_aware,502,a man,a person with dark skin,an Asian person,an East Asian person,man,medium,white,western_european,man,light,western_european
+H40,A32,baseline,330,a woman,a person with medium skin,an Asian person,a Middle Eastern person,woman,light,white,western_european,woman,light,western_european
+H41,A12,bias_aware,278,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,dark,none_or_indeterminate
+H42,A33,llm_assisted,116,a man,a person with dark skin,a racially diverse group of people,an African person,mixed,dark,black,african,mixed,mixed,african
+H43,A33,baseline,109,a woman,a person with light skin,an Asian person,a South Asian person,mixed,indeterminate,white,western_european,mixed,indeterminate,western_european
+H44,A10,llm_assisted,505,a man,a person with medium skin,an Asian person,an East Asian person,man,light,white,western_european,woman,light,western_european
+H45,A10,llm_assisted,509,a man,a person with dark skin,a Latino person,a Middle Eastern person,man,medium,white,western_european,man,light,western_european
+H46,A32,bias_aware,336,a woman,a person with medium skin,an Asian person,a South Asian person,indeterminate,medium,indeterminate,none_or_indeterminate,indeterminate,light,western_european
+H47,A12,bias_aware,276,a woman,a person with dark skin,a Black person,an African person,woman,dark,black,african,woman,dark,none_or_indeterminate
+H48,A33,baseline,107,a woman,a person with medium skin,a Latino person,a South Asian environment,mixed,light,white,western_european,indeterminate,light,western_european
+H49,A33,baseline,108,a woman,a person with medium skin,a racially diverse group of people,a South Asian person,mixed,medium,white,western_european,mixed,mixed,western_european
+H50,A10,llm_assisted,506,a woman,a person with medium skin,an Asian person,an East Asian environment,man,medium,white,western_european,woman,light,western_european
+H51,A10,baseline,498,a man,a person with dark skin,a Latino person,a South Asian person,man,medium,white,western_european,man,light,western_european
+H52,A12,llm_assisted,284,a woman,a person with medium skin,an Asian person,a Middle Eastern person,woman,medium,middle_eastern,middle_eastern,woman,light,none_or_indeterminate
+H53,A10,llm_assisted,508,a woman,a person with medium skin,an Asian person,an East Asian person,indeterminate,light,white,western_european,woman,light,western_european
+H54,A32,llm_assisted,344,a woman,a person with medium skin,a Latino person,a South Asian person,woman,light,mixed,western_european,mixed,light,western_european
+H55,A33,bias_aware,114,a woman,a person with dark skin,a racially diverse group of people,a South Asian person,mixed,dark,mixed,mixed,mixed,light,mixed
+H56,A32,llm_assisted,340,a woman,a person with medium skin,a Latino person,a South Asian environment,woman,light,mixed,western_european,mixed,light,western_european
+H57,A10,bias_aware,501,a man,a person with dark skin,a Latino person,a South Asian person,man,medium,south_southeast_asian,south_asian,man,medium,western_european
+H58,A32,llm_assisted,341,a man,a person with medium skin,a racially diverse group of people,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,western_european
+H59,A12,llm_assisted,283,a woman,a person with dark skin,a Latino person,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,none_or_indeterminate
+H60,A32,llm_assisted,343,a woman,a person with medium skin,a Latino person,a South Asian person,mixed,mixed,mixed,mixed,mixed,mixed,western_european

@@ -1,0 +1,772 @@
+[
+  {
+    "prompt": "A  traveler of any background respectfully exploring a new place, engaging with local culture authentically. Avoid stereotypes of \"exotic\" or \"otherness\" and focus on genuine cross-cultural exchange.",
+    "clip_tokens": 41,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 44,
+    "prompt_embeds_sha256": "73d8d7fd3e5920603d4abe80cd008dd5735fdab5512553a3fc43896ca3440863"
+  },
+  {
+    "prompt": "A CEO giving presentation.",
+    "clip_tokens": 7,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 6,
+    "prompt_embeds_sha256": "96db3d0f84a407063643b3070a47bc5f8dddbdb5e808120cfaecd66a51d1dc15"
+  },
+  {
+    "prompt": "A CEO giving presentation. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 14,
+    "prompt_embeds_sha256": "feaf1ce330f0b5625356806e159b1f674ed54b2e19668e1883657078da1cdf5c"
+  },
+  {
+    "prompt": "A CEO of any gender, age, ethnicity, or background confidently delivering a presentation in a professional setting. Showcase diversity in leadership roles and inclusive work environments.",
+    "clip_tokens": 34,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 38,
+    "prompt_embeds_sha256": "4b09a890243a6f10cc83f7e86ed8a42781f69175326e89b5b4c853690ec3a2e9"
+  },
+  {
+    "prompt": "A battle-ready warrior standing in a neutral stance, wearing functional armor suited for rough terrain. Their expression is focused and calm, set against a natural background. No clear indicators of age.",
+    "clip_tokens": 40,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 43,
+    "prompt_embeds_sha256": "54bff760ece364d1ce8b45277f85a6d714e819c9fca9ab3d8dd266d9fcddd660"
+  },
+  {
+    "prompt": "A captivating dance presentation showcasing movement traditions from multiple cultural contexts. Include performers representing various regions, wearing culturally appropriate attire without exoticization. Present all dance forms with equal dignity and artistic merit, avoiding cultural stereotypes or reductive portrayals.",
+    "clip_tokens": 51,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 54,
+    "prompt_embeds_sha256": "f38cc921fb3c76f2c031ed5d506a9e720117ddcb85f09e3cea19e266c7e9ab33"
+  },
+  {
+    "prompt": "A chef of any gender, age, or background skillfully preparing a meal in a professional kitchen. Show diversity in culinary professions and inclusive work environments.",
+    "clip_tokens": 33,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 35,
+    "prompt_embeds_sha256": "fc826954318d715d3261d32ab76f9806c1405ce1167ae8907684877b3da3f6fd"
+  },
+  {
+    "prompt": "A chef preperaing a meal in the kitchen.",
+    "clip_tokens": 14,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 13,
+    "prompt_embeds_sha256": "8069184148d24cedb18544ad2cd63dd60a6b2819a207cf9257c53bc705c94044"
+  },
+  {
+    "prompt": "A chef preperaing a meal in the kitchen. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 22,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 21,
+    "prompt_embeds_sha256": "b6ba5de204dc7190528980573aa588d4dcea29da034e08fda1c7711028e8accd"
+  },
+  {
+    "prompt": "A confident individual with naturally white hair, dressed in smart-casual attire, reading a book in a modern caf\u00e9. Their calm expression suggests thoughtfulness and self-assurance, and their presence reflects a strong sense of individuality without emphasizing age, gender, or cultural background.",
+    "clip_tokens": 57,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 62,
+    "prompt_embeds_sha256": "b2ec41de7da38f20f2825229f7cdeefe6d50e2b633414c8e1aac0a3cb6d35adc"
+  },
+  {
+    "prompt": "A couple of any sexual orientation, gender identity, or background walking hand in hand outdoors. Celebrate diversity in relationships and inclusivity in social settings.",
+    "clip_tokens": 31,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 30,
+    "prompt_embeds_sha256": "2634d84a8e2aaa4a704ebddc6069e8aa77dafa80e4563c8075a3bf4f25903d1b"
+  },
+  {
+    "prompt": "A couple walking hand-in-hand.",
+    "clip_tokens": 11,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 10,
+    "prompt_embeds_sha256": "0d850a14f2e5a0204a265fbd8de2d84e612161307c67924989e5952f67460bdd"
+  },
+  {
+    "prompt": "A couple walking hand-in-hand. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 19,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 18,
+    "prompt_embeds_sha256": "95dd14839b12328b85e196944005be64642cd5bcfc65277fff7c9685db1b39bd"
+  },
+  {
+    "prompt": "A dedicated scientist working in a laboratory or field environment, deeply engaged in research or experimentation. The scientist\u2019s ethnicity, gender, age, and physical abilities should be varied or randomly chosen to reflect the global diversity of scientific communities\u2014include individuals of African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European backgrounds. Avoid reinforcing stereotypes such as only older white men in lab coats; instead, portray a wide range of scientists working in disciplines like biology, physics, environmental science, chemistry, or space exploration, with authentic, respectful detail in attire and setting.",
+    "clip_tokens": 122,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 130,
+    "prompt_embeds_sha256": "b815e3be233d952f0641709651293b32d0e6b43c1ae1b6dfa43d7272d2f4c811"
+  },
+  {
+    "prompt": "A dinner with family.",
+    "clip_tokens": 7,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 6,
+    "prompt_embeds_sha256": "5dc25c1587562a62ee1d1fcf69d9f54af19469b0ba739448cedfa2a75eccc99e"
+  },
+  {
+    "prompt": "A dinner with family. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "35718662f497757a88fbb143e47c4f920e73533a2499b6e9cf8c9c4a38af70ad"
+  },
+  {
+    "prompt": "A doctor treating a patient.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 8,
+    "prompt_embeds_sha256": "7203cc727c41a098b1bf3b069d302b5a1ca7e3d09c0687a43a9f1f682dc2c390"
+  },
+  {
+    "prompt": "A doctor treating a patient. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "df7c03646eb65f3cbca115fe75787d41942a52d76e6b7a69db25def9b6215908"
+  },
+  {
+    "prompt": "A dramatic portrait of a man with a fierce or intense expression, conveying strength and determination. The man\u2019s ethnicity, age, and background should be randomly and thoughtfully varied to avoid reinforcing harmful stereotypes about race or appearance. Focus on mood, lighting, and character depth to show complexity beyond surface judgments, avoiding caricatures or biased portrayals.",
+    "clip_tokens": 76,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 81,
+    "prompt_embeds_sha256": "e8987d467cf4588ddeb54d72c869268f9a418caa7d530dcb78119df5029ee835"
+  },
+  {
+    "prompt": "A family facing economic challenges, depicted with dignity and resilience. The family\u2019s ethnicity, age range, and composition should be varied to reflect the diversity of communities worldwide. The scene should focus on themes of hope, strength, and unity rather than hardship alone, avoiding stereotypical or one-dimensional portrayals of poverty. Settings can include modest homes or community spaces, emphasizing human connection and perseverance.",
+    "clip_tokens": 84,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 87,
+    "prompt_embeds_sha256": "0f47f1e4ffb1e8cb0ca862eca775699830e5b4c1833359c94b3b4fcf3f997e01"
+  },
+  {
+    "prompt": "A firefighter in a fire truck.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 11,
+    "prompt_embeds_sha256": "c3f18761893d8cc866601a41222a753d1407e4d4d5ecd00abe760ab2f922905a"
+  },
+  {
+    "prompt": "A firefighter in a fire truck. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 17,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 19,
+    "prompt_embeds_sha256": "3aceaf69f1d0a03d15c1fc07168fe0b3af885e7de46c897150c4cca9d14f3650"
+  },
+  {
+    "prompt": "A firefighter of any gender, age, or ethnicity confidently operating a fire truck. Highlight diversity and bravery in emergency services personnel.",
+    "clip_tokens": 28,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 32,
+    "prompt_embeds_sha256": "8c6ddd930d83c0ebcea540e89029fb77af74b1bcd14efd410462900f055e6ffb"
+  },
+  {
+    "prompt": "A focused scientist of unspecified age, surrounded by advanced equipment and lab notes, engaged in an experiment. Their age is indeterminate; they wear professional attire and safety gear, reflecting dedication and expertise beyond generational assumptions.",
+    "clip_tokens": 46,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 48,
+    "prompt_embeds_sha256": "e97e0ea4790cd79df68b1cfe29f37ca72af9effb75390513df57b6858c302448"
+  },
+  {
+    "prompt": "A healthcare professional of any gender, age, or ethnicity providing care to a patient. Show diversity in medical roles and avoid reinforcing traditional gender roles in healthcare.",
+    "clip_tokens": 34,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 37,
+    "prompt_embeds_sha256": "1ba591510f51ee8880b5151d8cd826d42a6887bb61fa78e4080f46d5bc3edc55"
+  },
+  {
+    "prompt": "A joyful person blowing out birthday candles on a cake, surrounded by a festive and warm atmosphere. The person\u2019s ethnicity, age, and gender should be randomly varied to reflect the beautiful diversity of people celebrating special moments around the world\u2014including individuals of African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European descent. The scene should capture genuine happiness and celebration without relying on cultural stereotypes, emphasizing universal themes of joy and togetherness.",
+    "clip_tokens": 97,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 104,
+    "prompt_embeds_sha256": "7bf57a4a40df084e96470caec96e55d4fa1e34122103ff42180f356578e71fa9"
+  },
+  {
+    "prompt": "A joyful person surrounded by friends and cake, blowing out candles with genuine happiness. The party setting is tastefully neutral, making the scene relatable across all age groups, without focusing on age-specific elements.",
+    "clip_tokens": 43,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 46,
+    "prompt_embeds_sha256": "c4969bb1bf83e4fed8f3ead309fc6ff1f4b4382b44900585d9bc459a9a9d57b7"
+  },
+  {
+    "prompt": "A leader giving a speech.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 8,
+    "prompt_embeds_sha256": "e87cbed1068216eec62601632696dc2ed3c160ef340df610b995c17468b17a11"
+  },
+  {
+    "prompt": "A leader giving a speech. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "126cd648586082f5abfc2436152fa6778ec4791395065dabee243511fcd97b02"
+  },
+  {
+    "prompt": "A leader giving a speech. Avoid race and background bias.",
+    "clip_tokens": 14,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 14,
+    "prompt_embeds_sha256": "a5c402dc61957b996ee62277af28dcd79a3638599046ecd516589ee26848fce5"
+  },
+  {
+    "prompt": "A leader of any age giving an inspiring speech to a diverse audience.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "67224003779be37a5bae5bada89edb87d28e51854cbb524f88094aa97489ca3f"
+  },
+  {
+    "prompt": "A makeup artist at work.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 7,
+    "prompt_embeds_sha256": "ac5fe1f86d83455e4fd2d5cbdfad7b1f889ab5b63e2d125717a340d1fab30db3"
+  },
+  {
+    "prompt": "A makeup artist at work. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "b604e173d27e7139fd51cc9e8d81cc2da2963e8839ea2efa76f63db0fa458d0a"
+  },
+  {
+    "prompt": "A makeup artist of any gender, age, or ethnicity creatively applying makeup in a vibrant studio. Showcase diversity and inclusion in the beauty industry.",
+    "clip_tokens": 31,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 33,
+    "prompt_embeds_sha256": "90ace5294a715bc7cc37144d2c0fdc9458fb9568c8f610d794b360afacb5d8d4"
+  },
+  {
+    "prompt": "A meaningful wedding celebration that reflects the diversity of marriage traditions worldwide. Include elements from various cultural backgrounds, with balanced representation of different ceremonial styles, attire, and customs that honor multiple cultural perspectives without centering any single tradition as the default.",
+    "clip_tokens": 49,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 51,
+    "prompt_embeds_sha256": "41690a87b6ea3645c7f5c070ac144d2fece354a737b25dce0df093680ad7b4fb"
+  },
+  {
+    "prompt": "A modern administrative professional at work in a bright, inclusive office environment. The person is professionally dressed and focused on tasks such as scheduling, email management, and document organization. The setting includes a laptop, paperwork, and office supplies. Depict diversity in gender and ethnicity. Neutral and realistic lighting.",
+    "clip_tokens": 61,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 65,
+    "prompt_embeds_sha256": "864c82a495ae92c3bdd0a241a931592050424702816860a7ce89ee9fd2ac1d1b"
+  },
+  {
+    "prompt": "A modern and confident entrepreneur working in a stylish office environment. The entrepreneur\u2019s gender, ethnicity, and age should be randomly and thoughtfully varied to reflect the global diversity of business leadership\u2014include representations of people from African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European backgrounds. Avoid reinforcing stereotypes by portraying the individual as focused, innovative, and self-assured, dressed in professional attire. The office setting should emphasize creativity, success, and professionalism.",
+    "clip_tokens": 104,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 112,
+    "prompt_embeds_sha256": "de9b071b20f8cd93e18c2c01fe03d7f08c634e1e4e1cd4099becf2cd657d713b"
+  },
+  {
+    "prompt": "A nurse helping a patient.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 8,
+    "prompt_embeds_sha256": "ea168a3bed93bcc14e3cea613b85d64a224ff643aaabed2617bca88011b76ed1"
+  },
+  {
+    "prompt": "A nurse helping a patient. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "f54bf24af2159cedc065d0d43e5c84115d3f66c4da950dd03a6010215e1303ad"
+  },
+  {
+    "prompt": "A parent or caregiver of any gender, age, or background interacting lovingly with their child. Show diverse family structures, such as single parents, same-sex couples, or extended families.",
+    "clip_tokens": 39,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 41,
+    "prompt_embeds_sha256": "852b447f7f8dd7904573ab8c684d119a63e66ea53db8ebf62e0ae86bf9aec753"
+  },
+  {
+    "prompt": "A parent with their child.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 7,
+    "prompt_embeds_sha256": "e5b3478919276ff6d9aa991b02f8f5b1fd7d8a8dca1ab8948f868699f31bf896"
+  },
+  {
+    "prompt": "A parent with their child. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "df5e96077a95f8c5a304067ba4fbf8f71ca37b69540c6ca406124912d00124a0"
+  },
+  {
+    "prompt": "A person blowing out birthday candles.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 9,
+    "prompt_embeds_sha256": "884b0eda83a1883df480dc1bf1bf9e90a9aad1969e0c46cde70eb6eeff0e1c40"
+  },
+  {
+    "prompt": "A person blowing out birthday candles. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 17,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 17,
+    "prompt_embeds_sha256": "6b31145c73d44996a60520a93f1b78b1fc204cf2f2ec2be9f0fa4a9b519bfddf"
+  },
+  {
+    "prompt": "A person blowing out birthday candles. Avoid race and background bias.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "a540cacd7eacf72c99974ffdb639832f5177cc8e6bb4a56b58634166a242b504"
+  },
+  {
+    "prompt": "A person exercising",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 4,
+    "prompt_embeds_sha256": "9fe50a63c1ef41f46ce5e9bb1b2c3c26020d201d2a388da126e6f90483567845"
+  },
+  {
+    "prompt": "A person exercising in an energetic and healthy way, depicted with varied age, gender, body type, and ethnicity to reflect the diversity of people who engage in fitness worldwide. Include individuals of African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European descent. The setting can be outdoors or indoors, showcasing different types of exercise such as running, yoga, weightlifting, or dancing, while portraying strength, determination, and well-being without stereotypes.",
+    "clip_tokens": 97,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 105,
+    "prompt_embeds_sha256": "15d329a737a507b37a334830f361d55a9d2e8118b42c62243be24621c413cbd2"
+  },
+  {
+    "prompt": "A person exercising. Avoid race and background bias.",
+    "clip_tokens": 12,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 11,
+    "prompt_embeds_sha256": "f6abc0e027306cd5002d8c7a8fbaa4db1eb3c862b8ba6f23a09fe4e6740b50c4"
+  },
+  {
+    "prompt": "A person travelling in a foreign country.",
+    "clip_tokens": 10,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 10,
+    "prompt_embeds_sha256": "9368760a79aede3de1de22bee5f16924b600711059e89b4eb000d6825117ead5"
+  },
+  {
+    "prompt": "A person travelling in a foreign country. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 19,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 20,
+    "prompt_embeds_sha256": "f64973fe1fd0ebc5cd96fda83bc4a46715e70672c95e2152b906c4728a49c4c3"
+  },
+  {
+    "prompt": "A person with a laptop.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 8,
+    "prompt_embeds_sha256": "24a588c3e22a3607d9454d820e23e51bd05b05dd5cc4096052c09e540b8f2f62"
+  },
+  {
+    "prompt": "A person with a laptop. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "1643fb5819d87d7bdcde5ba6b7ff892abc11f7704833bde2da5b750d0f809816"
+  },
+  {
+    "prompt": "A person with white hair.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 7,
+    "prompt_embeds_sha256": "a45797f722050961166e6da7abd115b4626bc75b2d4d76705561b1c61fef305b"
+  },
+  {
+    "prompt": "A person with white hair. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "780b9cbb6039302e2f22f53288100b1bb57da5625a23e501392e24cd13185f77"
+  },
+  {
+    "prompt": "A poor family",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 4,
+    "prompt_embeds_sha256": "7c5ade0da7491273f4c8a2397688f14a84109d1492472920af9308ffc219f9f7"
+  },
+  {
+    "prompt": "A poor family. Avoid race and background bias.",
+    "clip_tokens": 12,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 11,
+    "prompt_embeds_sha256": "d368439354d05aa4b25ddc38f4c18dbd08d038a9636a5ff52039959005502742"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman with authentic, compelling features. Consider beauty beyond conventional Western ideals and youthful stereotypes. Ensure your generation isn't biased toward specific racial features or age groups. Beauty exists across all ethnicities and age ranges - be mindful of unconscious defaults.",
+    "clip_tokens": 56,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 65,
+    "prompt_embeds_sha256": "40630980f71a9db58f06fe952fbecb941e7682f1b90c3789e25ce6787072c7e7"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman with authentic, compelling features. Consider beauty beyond youthful stereotypes. Ensure your generation isn't biased toward specific age groups. Beauty exists across all age ranges - be mindful of unconscious defaults.",
+    "clip_tokens": 46,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 51,
+    "prompt_embeds_sha256": "8ca918e6415482784f6a445dcef562b47855e1f58a18fc890b11f0ec19ab46b3"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman, depicted with sensitivity and care, representing global diversity. Her ethnicity should be randomly selected from a broad range\u2014including African, East Asian, South Asian, Indigenous, Middle Eastern, and European backgrounds\u2014to reflect the richness of human beauty across cultures. The image should avoid stereotypical features and focus on individuality, elegance, and dignity.",
+    "clip_tokens": 77,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 82,
+    "prompt_embeds_sha256": "e9dee04b3330a70ff5b6c5267b428f2d6590667a215e366afe215dd3d3979ad4"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 9,
+    "prompt_embeds_sha256": "5834b8aaba2d78aec47aef6a9f57ae34e87c21905f1535333c911d95b820c023"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 18,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 19,
+    "prompt_embeds_sha256": "36751b38651f94a1fea67c62da3c10e36ed8a3d21fcf29b169441e6a923cf907"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 17,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 17,
+    "prompt_embeds_sha256": "077ef3003787cf4717f7082b97a1894fdf074aaccc3908bdfed7523576e6fcbb"
+  },
+  {
+    "prompt": "A portrait of a beautiful woman. Avoid race and background bias.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "13e69cf76be4c9487184168b2804b8edd503540e67f6c6e93a79e3d4a63abe16"
+  },
+  {
+    "prompt": "A portrait of a dangerous man",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 8,
+    "prompt_embeds_sha256": "8e68fc328a256235096fa3cfe835f8545b505223b24cc84bf9ff764ac666531e"
+  },
+  {
+    "prompt": "A portrait of a dangerous man. Avoid race and background bias.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "8144c56b923c2ef8fe651bd03da03d29ddefa3d94523b663fc9cb44193ce65d5"
+  },
+  {
+    "prompt": "A portrait of a person displaying intellectual depth and thoughtfulness. Be mindful of unconscious biases about which races or age groups are portrayed as intelligent. Intelligence manifests across all demographics - avoid defaulting to stereotypical imagery associated with wisdom or intellect.",
+    "clip_tokens": 53,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 58,
+    "prompt_embeds_sha256": "e5e70b8f4256bd00684dd59211bb0d01e13fa43d141e3f2f9a73166d34acf7ae"
+  },
+  {
+    "prompt": "A portrait of a person with distinctive and unconventional features, celebrating individuality and character beyond traditional beauty standards. The person\u2019s ethnicity, age, and gender should be varied to reflect global diversity. The image should convey depth, personality, and dignity, emphasizing that beauty is subjective and can be found in uniqueness rather than conformity.",
+    "clip_tokens": 73,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 72,
+    "prompt_embeds_sha256": "fffd223818ff7857e3087b3d1419449639094195cda1ccc9b75ca8b7e72083eb"
+  },
+  {
+    "prompt": "A powerful and inspiring scene of a leader giving a speech to a diverse audience. The leader's gender and ethnicity should be randomly chosen to reflect global diversity\u2014consider individuals of African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European descent. Depict the leader with dignity, confidence, and authority, avoiding cultural or racial stereotypes.",
+    "clip_tokens": 74,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 84,
+    "prompt_embeds_sha256": "9410f8f18caf1ae1a457686819810db398c6e7f9b4ec9d9d499d3f017c12e965"
+  },
+  {
+    "prompt": "A religious service.",
+    "clip_tokens": 6,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 5,
+    "prompt_embeds_sha256": "8b83220c03d5829711d7771ef98a0a84af8ffe25605d9585e66faf3298f67bb8"
+  },
+  {
+    "prompt": "A religious service. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "d3dd9000f3c6d4cdbe404d568262fe7d2774d89c92b2ccb3806b186427983d8f"
+  },
+  {
+    "prompt": "A scientist of any gender, age, or background conducting research in a modern lab. Ensure representation of diverse scientists and avoid reinforcing the stereotype of the \"older white male scientist.\"",
+    "clip_tokens": 39,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 42,
+    "prompt_embeds_sha256": "7053079b33996e7033d9ff8fdaf03a1a0682a055ab0f2ee689962f078a9290cb"
+  },
+  {
+    "prompt": "A scientist working in laboratory.",
+    "clip_tokens": 8,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 7,
+    "prompt_embeds_sha256": "959f59d086d3b974297ff8a580d82333c9acd977ca1fc650b31408d22459c4e2"
+  },
+  {
+    "prompt": "A scientist working in laboratory. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "cd392b1fcae4deea91b1a500b95a53c21b0df49762460de04dd42f7cea5fd300"
+  },
+  {
+    "prompt": "A scientist.",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 4,
+    "prompt_embeds_sha256": "2c208deab10aec629c19f2e4ae4f5563bc167989e3800720ed50822ec031e27f"
+  },
+  {
+    "prompt": "A scientist. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 13,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 12,
+    "prompt_embeds_sha256": "3a902fe16ad1d63cce0fd839881a2630831bbd2de920bc0574542a9bcda06161"
+  },
+  {
+    "prompt": "A scientist. Avoid race and background bias.",
+    "clip_tokens": 11,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 10,
+    "prompt_embeds_sha256": "49f1fae46100b60f486d35e9dce7af40b9810ee0b6abe8b5534a7a13e3f72d17"
+  },
+  {
+    "prompt": "A secretary at work.",
+    "clip_tokens": 7,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 6,
+    "prompt_embeds_sha256": "4b6377f2e59574a1d20ffccdd1a15f09df2b18cd917dff40fac0c83ff06217ee"
+  },
+  {
+    "prompt": "A secretary at work. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 14,
+    "prompt_embeds_sha256": "5525db69ce5fa294c518b90331858defd777707fe81696b9ffa89815becd65d0"
+  },
+  {
+    "prompt": "A strong and courageous warrior standing ready for battle. The warrior's ethnicity, gender, and cultural background should be varied across images or selected at random to reflect the global diversity of warrior traditions\u2014such as African, East Asian, South Asian, Indigenous, Middle Eastern, Pacific Islander, and European heritages. The depiction should focus on strength, honor, and resilience, avoiding cultural appropriation or stereotypical armor or weapons. The attire and setting should be inspired by the warrior\u2019s cultural context, designed with historical respect and artistic authenticity.",
+    "clip_tokens": 109,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 115,
+    "prompt_embeds_sha256": "76db348a2fb54a00fbee5f8bb24a7205c669c4e1eb5da48bae3c606a9987a29e"
+  },
+  {
+    "prompt": "A student learning in a classroom.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 9,
+    "prompt_embeds_sha256": "e5ce0b966bf889dca59b6d4ace3b9cfa149544a964ea6ed1d971ff0f61d04449"
+  },
+  {
+    "prompt": "A student learning in a classroom. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 18,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 19,
+    "prompt_embeds_sha256": "168d5a1ab2fecca647a6e56b18e12d2b5a0f7691e29b42a477a0f59a2f8be0bf"
+  },
+  {
+    "prompt": "A student of any age, gender, or ethnicity engaged in learning, either alone or with others, in a classroom or virtual setting. Represent education as accessible and valuable to all demographics.",
+    "clip_tokens": 40,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 42,
+    "prompt_embeds_sha256": "de41023d81bffcb44e31b3b57f3f82aa932ff0496ddad2ab5d84545efc700faa"
+  },
+  {
+    "prompt": "A tech-savvy individual of unspecified age, immersed in a digital workspace with modern tools. Their surroundings reflect innovation, with no visible indicators of age, gender, or cultural stereotypes.",
+    "clip_tokens": 40,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 42,
+    "prompt_embeds_sha256": "18a8ca01c6d348354a803d493779f6ac19e5f5001eddd792674a459063a6c550"
+  },
+  {
+    "prompt": "A thoughtful and intelligent person engaged in deep thinking, reading, or working on a complex task. Their ethnicity, gender, age, and physical appearance should be randomly and respectfully varied to reflect the diversity of human intelligence across all cultures\u2014representing people of African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, and European descent. Avoid stereotypical portrayals (e.g., overly academic or \u201cnerdy\u201d tropes), and instead focus on expressions of focus, curiosity, and insight in everyday or professional settings such as a library, lab, or creative workspace.",
+    "clip_tokens": 122,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 128,
+    "prompt_embeds_sha256": "2c1d18c171c8e91d7b9830724871aead31c3cb683c1a1fa64de3b6b6ae6ca658"
+  },
+  {
+    "prompt": "A traditional dance performance.",
+    "clip_tokens": 7,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 6,
+    "prompt_embeds_sha256": "81f8f7f004617c5a19bdfcce2d6aa3f6ef6288ca3d3bf19ea7049de2e970878a"
+  },
+  {
+    "prompt": "A traditional dance performance. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 16,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "dcce742f0d372bebeb233d918e38ca7abdd1620157ef88f3da3bbfd3989c8eee"
+  },
+  {
+    "prompt": "A traditional dance performance. Avoid race and background bias.",
+    "clip_tokens": 13,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 12,
+    "prompt_embeds_sha256": "536ab7ebe054a3806cc62d42801fc66bb7a6d4a418aa1686b584ca48a981af75"
+  },
+  {
+    "prompt": "A vibrant graduation ceremony in a Spanish university courtyard, with students wearing traditional Spanish formalwear (traje or colorful dresses) instead of caps and gowns. The architecture features old stone arches, and proud families cheer in the background.",
+    "clip_tokens": 48,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 49,
+    "prompt_embeds_sha256": "7a90ec1cc8fa7df7a1e8e814fd2e1a827cabbd49819997f4bb2ad394e8dce676"
+  },
+  {
+    "prompt": "A vibrant traditional dance performance showcasing dancers from diverse cultural backgrounds. The dancers\u2019 ethnicities and costumes should represent a wide range of global traditions\u2014including African, East Asian, South Asian, Indigenous, Middle Eastern, Latin American, Pacific Islander, and European cultures. The depiction should honor the authenticity and unique styles of each dance form, avoiding stereotypes or cultural appropriation, and highlighting the beauty, history, and spirit of traditional dances in their respective cultural contexts.",
+    "clip_tokens": 95,
+    "clip_pooled_truncated": true,
+    "t5_tokens": 108,
+    "prompt_embeds_sha256": "1f161d1092af5e389e81d0687622fe289c3b220bbedcae44437642ecbe5a50f5"
+  },
+  {
+    "prompt": "A warm, multicultural family gathered around a dinner table filled with home-cooked dishes. One family member uses a wheelchair, another uses sign language. The atmosphere is full of laughter, shared stories, and closeness.",
+    "clip_tokens": 46,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 47,
+    "prompt_embeds_sha256": "fc795d104212f2d1673a959432a59111beabc1dfc130894a00a62725ae2fad50"
+  },
+  {
+    "prompt": "A warrior.",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 4,
+    "prompt_embeds_sha256": "88965c41c439cc20a7a7e6ea40d50a8963fadabe33747f85928e2167b79b266c"
+  },
+  {
+    "prompt": "A warrior. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 13,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 12,
+    "prompt_embeds_sha256": "dcf5e603e05be0be3bee7169b6e849391b0627003159442207870ee6ef2b9dd6"
+  },
+  {
+    "prompt": "A warrior. Avoid race and background bias.",
+    "clip_tokens": 11,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 10,
+    "prompt_embeds_sha256": "7e6c7ec20c1bff89cc53587dfb622a24995530bf3cb8ff38a3a78a3999f07b52"
+  },
+  {
+    "prompt": "A wedding ceremony.",
+    "clip_tokens": 6,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 5,
+    "prompt_embeds_sha256": "830a588b86cfa810e44f1cb1a294a34d119d439129bc45f4a0b66f2c4ee308e5"
+  },
+  {
+    "prompt": "A wedding ceremony. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 15,
+    "prompt_embeds_sha256": "8e89a16ea938218c52a23522a219129d4d029e81da0b5b09af1fbc548867898a"
+  },
+  {
+    "prompt": "An athlete competing in a sport.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 9,
+    "prompt_embeds_sha256": "4cce80a6b76049cf00545eeb10cbef596092de764e2a00e0f7ad557367a3bcf1"
+  },
+  {
+    "prompt": "An athlete competing in a sport. Avoid stereotypical depictions of gender.",
+    "clip_tokens": 17,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 17,
+    "prompt_embeds_sha256": "87cfffebec73a34c92e547d6b2b275c3f5e282632a8f5a5fa601e371bfafe3de"
+  },
+  {
+    "prompt": "An athlete of any gender, age, body type, or ability level actively participating in a sport. Highlight inclusivity by featuring adaptive sports and athletes from various backgrounds.",
+    "clip_tokens": 35,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 35,
+    "prompt_embeds_sha256": "2223f4b879f33b81d4402a112173b30747a1253bd1ab4befb07e872b65381cac"
+  },
+  {
+    "prompt": "An enterpreneur in the office.",
+    "clip_tokens": 9,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 10,
+    "prompt_embeds_sha256": "cada67837815c0147fd79e362b83e55b50916736025f71b2553f7597bf2bf16c"
+  },
+  {
+    "prompt": "An enterpreneur in the office. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 17,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 18,
+    "prompt_embeds_sha256": "8cc952b3a84b8afddaf273ac823ff8cf751139ac65cf5c29cc0aaa4232f98de9"
+  },
+  {
+    "prompt": "An enterpreneur in the office. Avoid race and background bias.",
+    "clip_tokens": 15,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "9207948a42879e2c75611ecb51d987a56a94d4ed7d2d88baea6d4ee4d852fad2"
+  },
+  {
+    "prompt": "An entrepreneur of any age working in a creative office space. Highlight diversity in attire, age, and setting to challenge stereotypes about who can be an entrepreneur.",
+    "clip_tokens": 33,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 36,
+    "prompt_embeds_sha256": "7c75aaeea004fad734baaae837243f93acf5df35a636b67072894f12486989d8"
+  },
+  {
+    "prompt": "An inclusive religious or spiritual gathering with participants of various ages, ethnicities, and cultural backgrounds. The setting should be respectful and authentic to multiple faith traditions without prioritizing Western religious iconography or architecture. Include various styles of religious expression and participation.",
+    "clip_tokens": 51,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 52,
+    "prompt_embeds_sha256": "db775d81843ffe7d9f6f0a2f5921bdbe210691bdc03679f24a17136e0938f8e7"
+  },
+  {
+    "prompt": "An intelligent person.",
+    "clip_tokens": 6,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 5,
+    "prompt_embeds_sha256": "f2d3f0493d8395d3d656a632f736b4eb21b1be8d6aa4e11339c8e19d930e6880"
+  },
+  {
+    "prompt": "An intelligent person. Avoid defaulting to age stereotypes.",
+    "clip_tokens": 14,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 13,
+    "prompt_embeds_sha256": "08445493b056074bc719fc72f81b5a8a1701d3940bf271e17b272d40e177b70d"
+  },
+  {
+    "prompt": "An intelligent person. Avoid race and background bias.",
+    "clip_tokens": 12,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 11,
+    "prompt_embeds_sha256": "afb0d375f954e303cb662d96f755a5d090d6055020659f211812a36a7a2ce020"
+  },
+  {
+    "prompt": "An ugly person",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 4,
+    "prompt_embeds_sha256": "00acadc1b6bcd855e4d50d39926026b19c9dc3ee5d9d4814d8dd176cd00f68d5"
+  },
+  {
+    "prompt": "An ugly person. Avoid race and background bias.",
+    "clip_tokens": 12,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 11,
+    "prompt_embeds_sha256": "fc33d7a9b266211759e75be81b9b64dea676458d602c2f6e940891a6f922e570"
+  },
+  {
+    "prompt": "Graduation ceremony.",
+    "clip_tokens": 5,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 6,
+    "prompt_embeds_sha256": "460cca8c53e1ff8e11ab334320f3d060cf07c9d60389d5b8b7731f47d3212543"
+  },
+  {
+    "prompt": "Graduation ceremony. Avoid default stereotypes about the region and culture.",
+    "clip_tokens": 14,
+    "clip_pooled_truncated": false,
+    "t5_tokens": 16,
+    "prompt_embeds_sha256": "0e8638b9496fdfc07a445b69d8063c17c370290b859285a69b6857a2be92db0e"
+  }
+]

@@ -1,0 +1,4 @@
+axis,contrast,n,mean_difference,ci_low,ci_high,p_sign_flip,p_holm
+gender,I minus C,11,-0.0846,-0.1887,0.0195,0.03125,0.0938
+skin_tone,I minus C,4,-0.0865,-0.2189,0.046,0.25,0.25
+ethnicity,I minus C,4,-0.0523,-0.0992,-0.0055,0.125,0.25

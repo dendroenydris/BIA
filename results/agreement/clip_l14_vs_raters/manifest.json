@@ -1,0 +1,21 @@
+{
+  "as_used_rerun_mismatches": [],
+  "per_image_source_sha256": "9cfbb6d3c87a73a4fce3c0f9d17c6473e60f0786c73b87b611bc8135844aef25",
+  "concepts_sha256": "5438e9f454809fd6f16eb7f0f12f3c5061459151d3416abc7735778bd1fbe995",
+  "bootstrap": {
+    "seed": 20261017,
+    "n": 10000
+  },
+  "variant": "l14ens",
+  "model": [
+    "openai/clip-vit-large-patch14",
+    "32bd64288804d66eefd0ccbe215aa642df71cc41"
+  ],
+  "templates": [
+    "a photo of {}.",
+    "a cropped photo of {}.",
+    "a close-up photo of {}.",
+    "a picture of {}.",
+    "an image of {}."
+  ]
+}

@@ -1,0 +1,61 @@
+category,strategy,label,proportion
+Gender Bias,Baseline,a man,0.5348837209302325
+Gender Bias,Baseline,a woman,0.46511627906976744
+Skin Tone Bias,Baseline,a person with light skin,0.0196078431372549
+Skin Tone Bias,Baseline,a person with medium skin,0.7450980392156863
+Skin Tone Bias,Baseline,a person with dark skin,0.23529411764705882
+Ethnic Representation Bias,Baseline,a white person,0.09803921568627451
+Ethnic Representation Bias,Baseline,a Black person,0.17647058823529413
+Ethnic Representation Bias,Baseline,an Asian person,0.29411764705882354
+Ethnic Representation Bias,Baseline,a Latino person,0.43137254901960786
+Ethnic Representation Bias,Baseline,a racially diverse group of people,0
+Geo-Cultural Bias,Baseline,a Western person,0
+Geo-Cultural Bias,Baseline,an East Asian person,0.08823529411764706
+Geo-Cultural Bias,Baseline,a Middle Eastern person,0.11764705882352941
+Geo-Cultural Bias,Baseline,an African person,0
+Geo-Cultural Bias,Baseline,a South Asian person,0.14705882352941177
+Geo-Cultural Bias,Baseline,a Western environment,0.029411764705882353
+Geo-Cultural Bias,Baseline,an East Asian environment,0.08823529411764706
+Geo-Cultural Bias,Baseline,a Middle Eastern environment,0.08823529411764706
+Geo-Cultural Bias,Baseline,an African environment,0
+Geo-Cultural Bias,Baseline,a South Asian environment,0.4411764705882353
+Gender Bias,Bias-aware,a man,0.325
+Gender Bias,Bias-aware,a woman,0.675
+Skin Tone Bias,Bias-aware,a person with light skin,0.09803921568627451
+Skin Tone Bias,Bias-aware,a person with medium skin,0.37254901960784315
+Skin Tone Bias,Bias-aware,a person with dark skin,0.5294117647058824
+Ethnic Representation Bias,Bias-aware,a white person,0.0392156862745098
+Ethnic Representation Bias,Bias-aware,a Black person,0.7254901960784313
+Ethnic Representation Bias,Bias-aware,an Asian person,0.13725490196078433
+Ethnic Representation Bias,Bias-aware,a Latino person,0.0392156862745098
+Ethnic Representation Bias,Bias-aware,a racially diverse group of people,0.058823529411764705
+Geo-Cultural Bias,Bias-aware,a Western person,0
+Geo-Cultural Bias,Bias-aware,an East Asian person,0.12121212121212122
+Geo-Cultural Bias,Bias-aware,a Middle Eastern person,0.030303030303030304
+Geo-Cultural Bias,Bias-aware,an African person,0.12121212121212122
+Geo-Cultural Bias,Bias-aware,a South Asian person,0.15151515151515152
+Geo-Cultural Bias,Bias-aware,a Western environment,0
+Geo-Cultural Bias,Bias-aware,an East Asian environment,0.030303030303030304
+Geo-Cultural Bias,Bias-aware,a Middle Eastern environment,0.030303030303030304
+Geo-Cultural Bias,Bias-aware,an African environment,0
+Geo-Cultural Bias,Bias-aware,a South Asian environment,0.5151515151515151
+Gender Bias,LLM-assisted,a man,0.3333333333333333
+Gender Bias,LLM-assisted,a woman,0.6666666666666666
+Skin Tone Bias,LLM-assisted,a person with light skin,0
+Skin Tone Bias,LLM-assisted,a person with medium skin,0.5892857142857143
+Skin Tone Bias,LLM-assisted,a person with dark skin,0.4107142857142857
+Ethnic Representation Bias,LLM-assisted,a white person,0
+Ethnic Representation Bias,LLM-assisted,a Black person,0.3392857142857143
+Ethnic Representation Bias,LLM-assisted,an Asian person,0.125
+Ethnic Representation Bias,LLM-assisted,a Latino person,0.32142857142857145
+Ethnic Representation Bias,LLM-assisted,a racially diverse group of people,0.21428571428571427
+Geo-Cultural Bias,LLM-assisted,a Western person,0
+Geo-Cultural Bias,LLM-assisted,an East Asian person,0
+Geo-Cultural Bias,LLM-assisted,a Middle Eastern person,0
+Geo-Cultural Bias,LLM-assisted,an African person,0.09375
+Geo-Cultural Bias,LLM-assisted,a South Asian person,0.25
+Geo-Cultural Bias,LLM-assisted,a Western environment,0.0625
+Geo-Cultural Bias,LLM-assisted,an East Asian environment,0.0625
+Geo-Cultural Bias,LLM-assisted,a Middle Eastern environment,0.03125
+Geo-Cultural Bias,LLM-assisted,an African environment,0
+Geo-Cultural Bias,LLM-assisted,a South Asian environment,0.5

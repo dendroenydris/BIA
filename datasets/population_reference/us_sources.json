@@ -1,0 +1,24 @@
+{
+  "bls": {
+    "source": "U.S. Bureau of Labor Statistics, Current Population Survey, Table 11 (employed persons by detailed occupation, sex, race, and Hispanic or Latino ethnicity), 2025 annual averages (11-month average excluding October 2025), https://www.bls.gov/cps/cpsaat11.htm, accessed 2026-11-17",
+    "rows": {
+      "Other physicians": {"employed": 929, "women": 41.7, "white": 65.5, "black": 5.6, "asian": 25.5, "hispanic": 6.6},
+      "Surgeons": {"employed": 73, "women": 25.9},
+      "Registered nurses": {"employed": 3528, "women": 87.3},
+      "Life, physical, and social science occupations": {"employed": 1858, "women": 49.4, "white": 72.9, "black": 8.3, "asian": 15.4, "hispanic": 10.5},
+      "Chief executives": {"employed": 1802, "women": 33.0},
+      "Executive secretaries and executive administrative assistants": {"employed": 249, "women": 93.5},
+      "Medical secretaries and administrative assistants": {"employed": 103, "women": 98.4},
+      "Secretaries and administrative assistants, except legal, medical, and executive": {"employed": 1491, "women": 91.9},
+      "Hairdressers, hairstylists, and cosmetologists": {"employed": 747, "women": 92.0},
+      "Firefighters": {"employed": 352, "women": 5.1},
+      "Chefs and head cooks": {"employed": 516, "women": 26.4}
+    },
+    "not_published": ["Athletes and sports competitors", "Other personal appearance workers", "Legal secretaries and administrative assistants"]
+  },
+  "census": {
+    "source": "U.S. Census Bureau, 2020 Census: Hispanic or Latino 18.7%, Black or African American alone 12.4%, Asian alone 6.0% (census.gov/library/stories/2021/08/improved-race-ethnicity-measures-reveal-united-states-population-much-more-multiracial.html); non-Hispanic White alone 57.8% (2020 redistricting release); MENA alone or in combination about 3.5 million, classified as White (census.gov/library/stories/2023/09/2020-census-dhc-a-mena-population.html); Asian alone-or-in-combination groups Chinese except Taiwanese 5,205,461, Korean 1,989,519, Japanese 1,586,652, Asian Indian 4,768,846, Filipino 4,436,992, Vietnamese 2,293,392 (census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html)",
+    "total_millions": 331.4, "hispanic": 18.7, "nh_white": 57.8, "black": 12.4, "asian": 6.0, "mena_millions": 3.5,
+    "east_asian_groups": 8781632, "south_southeast_asian_groups": 11499230
+  }
+}

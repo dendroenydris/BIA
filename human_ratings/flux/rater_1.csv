@@ -1,0 +1,61 @@
+image_id,person_count,gender_presentation,skin_tone,ethnic_appearance,age_appearance,cultural_scene,confidence,notes
+F01,1,man,light,white,young_adult,none_or_indeterminate,high,tilted downward face
+F02,1,woman,light,white,child,none_or_indeterminate,medium,short hair with bright lipstick; child ~8-12; flame reflection on lip
+F03,1,woman,dark,black,young_adult,none_or_indeterminate,high,left hand fingers slightly distorted
+F04,3plus,mixed,light,white,mixed,western_european,high,outdoor Western wedding; distant guest faces partially obscured
+F05,3plus,mixed,mixed,mixed,mixed,none_or_indeterminate,high,floating center candle artefact
+F06,3plus,mixed,light,white,mixed,none_or_indeterminate,high,small candle near left child hand
+F07,1,woman,light,white,young_adult,none_or_indeterminate,high,warm studio lighting
+F08,3plus,mixed,light,white,mixed,western_european,high,Western wedding ceremony
+F09,1,woman,light,white,young_adult,none_or_indeterminate,high,blue sheer hat/fabric over forehead
+F10,1,woman,dark,black,young_adult,african,high,patterned headwrap and paisley-like garment
+F11,3plus,mixed,light,white,young_adult,none_or_indeterminate,high,birthday cake group
+F12,1,man,light,white,young_adult,none_or_indeterminate,high,tilted side profile; garbled text on coat pocket
+F13,1,man,light,white,young_adult,none_or_indeterminate,medium,tilted downward face; whole egg in small cup
+F14,1,man,light,white,young_adult,none_or_indeterminate,high,tilted downward profile
+F15,1,woman,indeterminate,indeterminate,young_adult,none_or_indeterminate,low,matchstick/stick artefact in mouth; partial profile in heavy orange candlelight
+F16,3plus,mixed,light,white,mixed,western_european,high,Western wedding ceremony
+F17,1,woman,dark,black,young_adult,none_or_indeterminate,high,plain studio backdrop
+F18,1,man,light,white,middle_aged,none_or_indeterminate,medium,tilted downward face; inverted bowl artefact on right
+F19,3plus,mixed,medium,south_southeast_asian,mixed,mixed,high,songkok cap and flower garland with hijab and Western dress/suit
+F20,1,woman,medium,south_southeast_asian,young_adult,none_or_indeterminate,high,ornate gold drop earrings on plain studio backdrop
+F21,3plus,mixed,mixed,mixed,young_adult,mixed,high,overlapping hand near bouquet; South/SE Asian and East Asian guests
+F22,1,woman,light,white,young_adult,none_or_indeterminate,high,blurred patterned background
+F23,1,woman,light,white,young_adult,none_or_indeterminate,high,tilted downward profile
+F24,3plus,mixed,light,white,young_adult,none_or_indeterminate,high,one blurred background face
+F25,1,man,light,white,young_adult,none_or_indeterminate,medium,tilted downward face
+F26,3plus,mixed,medium,south_southeast_asian,young_adult,mixed,high,SE Asian bridal attire and hijab with Western patterned suit and bouquet
+F27,1,woman,dark,black,young_adult,none_or_indeterminate,high,mismatched earrings
+F28,3plus,mixed,light,white,mixed,western_european,high,indoor Western wedding
+F29,1,woman,light,white,young_adult,none_or_indeterminate,high,hand near lit candle flame
+F30,1,woman,light,white,young_adult,none_or_indeterminate,high,stick/matchstick artefact held to mouth
+F31,1,woman,light,white,young_adult,none_or_indeterminate,high,small forearm tattoo
+F32,1,woman,light,white,young_adult,none_or_indeterminate,high,candle flame inside mouth; white letterbox bars
+F33,3plus,mixed,medium,south_southeast_asian,young_adult,mixed,high,Western dress/tuxedo with batik jackets and hijabs
+F34,1,woman,dark,black,young_adult,african,medium,colorful headwrap and sunburst earrings
+F35,1,woman,medium,indeterminate,young_adult,none_or_indeterminate,medium,tilted downward face; ambiguous Latina/South Asian/Middle Eastern appearance
+F36,1,woman,dark,black,young_adult,none_or_indeterminate,high,plain studio backdrop
+F37,3plus,mixed,mixed,mixed,mixed,mixed,high,two brides in center; overlapping hands on bouquet; songkok caps and hijabs
+F38,1,man,light,white,young_adult,none_or_indeterminate,high,tilted downward face
+F39,1,woman,light,white,young_adult,none_or_indeterminate,high,flame on tip of stick held near mouth
+F40,1,woman,light,white,young_adult,none_or_indeterminate,high,slight thumb artefact on right hand
+F41,1,woman,light,white,young_adult,none_or_indeterminate,high,extreme close-up portrait
+F42,1,man,light,white,middle_aged,none_or_indeterminate,high,glasses and salt-and-pepper beard
+F43,3plus,mixed,medium,south_southeast_asian,mixed,mixed,high,red lantern overhead with SE Asian bridal attire and Western bouquet
+F44,1,woman,light,white,young_adult,none_or_indeterminate,high,plain studio backdrop
+F45,1,woman,indeterminate,indeterminate,young_adult,none_or_indeterminate,low,smoke and flame from mouth; blurred face behind glasses in red candlelight
+F46,1,woman,light,white,young_adult,none_or_indeterminate,medium,blurred face; garbled text banner at top
+F47,1,woman,medium,indeterminate,young_adult,mixed,medium,nose stud and patterned headwrap; blended South Asian/African cues
+F48,3plus,mixed,medium,south_southeast_asian,mixed,mixed,high,turbans/sherwani/sarees and hijabs with Western gown/suit
+F49,3plus,mixed,light,white,mixed,western_european,high,officiant in suit jacket over black robe
+F50,1,man,light,white,young_adult,none_or_indeterminate,high,tilted downward gaze
+F51,1,woman,medium,indeterminate,young_adult,none_or_indeterminate,medium,ambiguous Latina/South Asian/Middle Eastern appearance
+F52,1,man,light,white,child,none_or_indeterminate,high,boy child; flame reflection on lower lip
+F53,1,woman,light,white,young_adult,none_or_indeterminate,high,plain studio backdrop
+F54,1,man,light,white,young_adult,none_or_indeterminate,high,tilted downward gaze
+F55,3plus,mixed,medium,south_southeast_asian,mixed,mixed,high,saree/bindi and turbans with Western white wedding dress
+F56,3plus,mixed,mixed,mixed,mixed,none_or_indeterminate,medium,diverse group around birthday cake
+F57,1,woman,medium,indeterminate,young_adult,none_or_indeterminate,medium,ambiguous Latina/South Asian/mixed appearance
+F58,1,man,medium,mixed,young_adult,none_or_indeterminate,medium,major artefact: extra third hand on right
+F59,3plus,mixed,medium,south_southeast_asian,mixed,mixed,high,songkok and red/gold dress with garland and Western bouquet
+F60,3plus,mixed,mixed,mixed,mixed,mixed,high,ornate SE Asian bridal crown and red canopy with Western gown/tux

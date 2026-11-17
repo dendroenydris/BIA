@@ -1,0 +1,14 @@
+{
+  "design": "three-condition main study, regenerated with shared latents and recorded settings",
+  "source_prompts_sha256": "c40e14a92526cc3f262a6e4335ce8e2fb0e2b5bfaee5c7da6b0e05116dfd0ed7",
+  "master_seed": 20261117,
+  "prompt_entries": 40,
+  "conditions": [
+    "baseline",
+    "bias_aware",
+    "llm_assisted"
+  ],
+  "repetitions": 50,
+  "planned_images_per_model": 6000,
+  "generation_schedule_sha256": "2d3a9fa016e36379d3f007a0960b8942a2ef2f19139985cc82159318fc4a16ab"
+}

@@ -1,0 +1,13 @@
+axis,arm,prompts,prompts_with_substantive,mean_label_mad,mean_non_substantive_share
+culture,baseline,8,8,0.12050000000000001,0.0
+culture,bias_aware,8,8,0.125,0.0
+culture,llm_assisted,8,8,0.133,0.0
+ethnicity,baseline,12,12,0.21666666666666667,0.0
+ethnicity,bias_aware,12,12,0.20866666666666667,0.0
+ethnicity,llm_assisted,12,12,0.20066666666666666,0.0
+gender,baseline,11,11,0.4018181818181818,0.0
+gender,bias_aware,11,11,0.37272727272727274,0.0
+gender,llm_assisted,11,11,0.38181818181818183,0.0
+skin_tone,baseline,12,12,0.31962962962962965,0.0
+skin_tone,bias_aware,12,12,0.30777777777777776,0.0
+skin_tone,llm_assisted,12,12,0.36703703703703705,0.0

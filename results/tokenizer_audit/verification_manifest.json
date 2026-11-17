@@ -1,0 +1,51 @@
+{
+  "status": "verified",
+  "resource_repository": "sd2-community/stable-diffusion-2-1",
+  "resource_revision": "bb2154823665391b4fb29b0b9cf82a198964ee05",
+  "historical_generation_revision_verified": false,
+  "preprocessing_path": "BasicTokenizer fallback; ftfy unavailable",
+  "source_audit_jsonl_sha256": "0b4054ce87487a9fdd3ce782e11a81770c3b281a68a297533724f67762f037fb",
+  "source_audit_manifest_sha256": "5a3d3c90bf1a34933714ff557241b1d2e8470ba638f59e78cea92cfd1dd3bed8",
+  "prompts_sha256": "c40e14a92526cc3f262a6e4335ce8e2fb0e2b5bfaee5c7da6b0e05116dfd0ed7",
+  "source_per_image_sha256": "9cfbb6d3c87a73a4fce3c0f9d17c6473e60f0786c73b87b611bc8135844aef25",
+  "independently_replayed_inputs": 120,
+  "truncated_entries": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    22,
+    23
+  ],
+  "truncated_conditions": [
+    2
+  ],
+  "affected_generated_images": 40,
+  "comparison_with_evaluation_tokenizer": {
+    "vocabulary_equal": true,
+    "bpe_ranks_equal": true,
+    "all_120_encoded_sequences_equal": true
+  },
+  "post_hoc_sensitivity": {
+    "retained_racial_entries": [
+      12,
+      13,
+      20,
+      21
+    ],
+    "prompt_n_per_axis": 4,
+    "unique_images": 60,
+    "comparisons": 18,
+    "holm_family_size": 18,
+    "adjusted_below_05": 0,
+    "interpretation": "selected post-hoc subset; no historical encoding proof, equivalence, matched control, or population/causal inference"
+  },
+  "output_files_sha256": {
+    "no_overflow_racial_descriptives.csv": "670a70f35e6388dac8629a9b498885aff4dded5df511b276f07b6bc43e997830",
+    "truncated_inputs.csv": "54ae99e5b039fde5b4c85397d95349c7a02c2ebc829cf234b33ef6fe96269ae7",
+    "no_overflow_racial_comparisons.csv": "57f408ba3806e41089dfa57dfaacec88c99bf5e1cd28e6ae1b60bf46b95287d2",
+    "all_inputs.csv": "32c4c371853158f042af56a0d11d6e7bd2302d2d66413c2bfb10bf793bb5d696"
+  }
+}

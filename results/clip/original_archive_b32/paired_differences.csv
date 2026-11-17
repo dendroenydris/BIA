@@ -1,0 +1,388 @@
+comparison_id,category,comparison,metric,prompt_id,difference
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,09f9d06a92399c65,0.16
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,13c02f3c7d626d4b,0.08000000000000002
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,14bb99a89a9a8f60,2.7755575615628914e-17
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,214b7d14a14b2626,0.08000000000000002
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,381b51ddfd5d4f66,0.16
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,556718d05b677e88,-0.07999999999999999
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,65dc08a6f0068918,0.15999999999999998
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,a2851de582953f59,0.08000000000000002
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,d3dfbf27e5cd52c6,0.07999999999999999
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,dfaa1ef57d61a5fe,2.7755575615628914e-17
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,eaf6600981ecb068,0.24
+1,Ethnic Representation Bias,Bias-aware minus Baseline,label_imbalance_mad,fd35223f2e7f8a81,0.16
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,09f9d06a92399c65,0.0069501048988766245
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,13c02f3c7d626d4b,-0.005584274066819106
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,14bb99a89a9a8f60,0.010078854527738323
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,214b7d14a14b2626,-0.0032964238690005587
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,381b51ddfd5d4f66,0.009903603047132503
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,556718d05b677e88,-0.0012231691843933579
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,65dc08a6f0068918,-0.010159653590785134
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,a2851de582953f59,-0.01328757098979419
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,d3dfbf27e5cd52c6,-0.002764660782284184
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,dfaa1ef57d61a5fe,-0.01029058810737396
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,eaf6600981ecb068,-0.0024278206129868807
+2,Ethnic Representation Bias,Bias-aware minus Baseline,concept_similarity,fd35223f2e7f8a81,0.01746379716528787
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,09f9d06a92399c65,0.041719663143157976
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,13c02f3c7d626d4b,0.010518389940261857
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,14bb99a89a9a8f60,0.005549380183219932
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,214b7d14a14b2626,0.006427301963170373
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,381b51ddfd5d4f66,0.027278939882914216
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,556718d05b677e88,0.009048293034235627
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,65dc08a6f0068918,0.013285830616950989
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,a2851de582953f59,-0.012466681003570568
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,d3dfbf27e5cd52c6,0.0062646150588989424
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,dfaa1ef57d61a5fe,0.0007456213235855214
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,eaf6600981ecb068,0.012567254900932301
+3,Ethnic Representation Bias,Bias-aware minus Baseline,reference_similarity,fd35223f2e7f8a81,0.03286199768384296
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,09f9d06a92399c65,0.16
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,13c02f3c7d626d4b,0.0
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,14bb99a89a9a8f60,0.0
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,214b7d14a14b2626,0.0
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,381b51ddfd5d4f66,0.0
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,556718d05b677e88,0.0
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,65dc08a6f0068918,0.08
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,a2851de582953f59,0.07999999999999999
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,d3dfbf27e5cd52c6,0.08000000000000002
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,dfaa1ef57d61a5fe,-0.07999999999999999
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,eaf6600981ecb068,0.08
+4,Ethnic Representation Bias,LLM-assisted minus Baseline,label_imbalance_mad,fd35223f2e7f8a81,0.0
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,09f9d06a92399c65,0.03238149185975392
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,13c02f3c7d626d4b,-0.025987460215886438
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,14bb99a89a9a8f60,0.000926425473557535
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,214b7d14a14b2626,-0.025575108453631396
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,381b51ddfd5d4f66,0.01390487137768004
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,556718d05b677e88,-0.009241217954291225
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,65dc08a6f0068918,0.003194774438937509
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,a2851de582953f59,-0.007048733946349889
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,d3dfbf27e5cd52c6,0.011297490696112328
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,dfaa1ef57d61a5fe,-0.004273769590589727
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,eaf6600981ecb068,-0.02738593204153908
+5,Ethnic Representation Bias,LLM-assisted minus Baseline,concept_similarity,fd35223f2e7f8a81,-0.002311477147870611
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,09f9d06a92399c65,0.04359395603338878
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,13c02f3c7d626d4b,0.017455379168192536
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,14bb99a89a9a8f60,0.0008963902791341294
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,214b7d14a14b2626,-0.007923998435338336
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,381b51ddfd5d4f66,0.01739908258120218
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,556718d05b677e88,-0.00921681523323059
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,65dc08a6f0068918,0.008655913670857746
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,a2851de582953f59,-0.008413781722386687
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,d3dfbf27e5cd52c6,0.022215081254641222
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,dfaa1ef57d61a5fe,-0.0005607863267262925
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,eaf6600981ecb068,-0.023635064562161773
+6,Ethnic Representation Bias,LLM-assisted minus Baseline,reference_similarity,fd35223f2e7f8a81,0.010558858513832065
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,09f9d06a92399c65,0.0
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,13c02f3c7d626d4b,-0.08000000000000002
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,14bb99a89a9a8f60,-2.7755575615628914e-17
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,214b7d14a14b2626,-0.08000000000000002
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,381b51ddfd5d4f66,-0.16
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,556718d05b677e88,0.07999999999999999
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,65dc08a6f0068918,-0.07999999999999999
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,a2851de582953f59,-2.7755575615628914e-17
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,d3dfbf27e5cd52c6,2.7755575615628914e-17
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,dfaa1ef57d61a5fe,-0.08000000000000002
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,eaf6600981ecb068,-0.16
+7,Ethnic Representation Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,fd35223f2e7f8a81,-0.16
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,09f9d06a92399c65,0.025431386960877295
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,13c02f3c7d626d4b,-0.02040318614906733
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,14bb99a89a9a8f60,-0.009152429054180788
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,214b7d14a14b2626,-0.022278684584630837
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,381b51ddfd5d4f66,0.004001268330547536
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,556718d05b677e88,-0.008018048769897868
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,65dc08a6f0068918,0.013354428029722643
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,a2851de582953f59,0.006238837043444301
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,d3dfbf27e5cd52c6,0.014062151478396512
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,dfaa1ef57d61a5fe,0.006016818516784234
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,eaf6600981ecb068,-0.0249581114285522
+8,Ethnic Representation Bias,LLM-assisted minus Bias-aware,concept_similarity,fd35223f2e7f8a81,-0.01977527431315848
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,09f9d06a92399c65,0.0018742928902308054
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,13c02f3c7d626d4b,0.006936989227930679
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,14bb99a89a9a8f60,-0.0046529899040858025
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,214b7d14a14b2626,-0.01435130039850871
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,381b51ddfd5d4f66,-0.009879857301712036
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,556718d05b677e88,-0.018265108267466218
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,65dc08a6f0068918,-0.004629916946093243
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,a2851de582953f59,0.00405289928118388
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,d3dfbf27e5cd52c6,0.01595046619574228
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,dfaa1ef57d61a5fe,-0.0013064076503118138
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,eaf6600981ecb068,-0.036202319463094074
+9,Ethnic Representation Bias,LLM-assisted minus Bias-aware,reference_similarity,fd35223f2e7f8a81,-0.022303139170010894
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,08e17be0c80e43ef,-0.20000000000000007
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,15556eb6a36317c3,-0.19999999999999996
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,3e28727cf3102545,0.4
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,3e9856e4c8710c31,0.20000000000000007
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,4c011e8c4890c007,0.0
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,652b0ae33b53d30a,0.4
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,8ee4f96b77784893,0.4
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,a0f234319d529046,0.0
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,a9e5f3149eb1b857,0.0
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,e005ad37ddfe3732,0.20000000000000007
+10,Gender Bias,Bias-aware minus Baseline,label_imbalance_mad,ffb5d72f44123c54,0.0
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,08e17be0c80e43ef,0.006544862025313958
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,15556eb6a36317c3,0.00026191266046632355
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,3e28727cf3102545,-0.01232039117150835
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,3e9856e4c8710c31,-0.0008278457654846694
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,4c011e8c4890c007,-0.019559163351853648
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,652b0ae33b53d30a,0.002345796508921527
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,8ee4f96b77784893,-0.0010649593340025798
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,a0f234319d529046,-0.01747208717796539
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,a9e5f3149eb1b857,-0.0024719988306363683
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,e005ad37ddfe3732,-0.004943435887495684
+11,Gender Bias,Bias-aware minus Baseline,concept_similarity,ffb5d72f44123c54,-0.0033196017146110424
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,08e17be0c80e43ef,0.0038041502237319835
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,15556eb6a36317c3,-0.0031177679697672323
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,3e28727cf3102545,-0.015321678916613263
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,3e9856e4c8710c31,-0.0055720865726471
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,4c011e8c4890c007,-0.016578268011411046
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,652b0ae33b53d30a,0.007036396861076349
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,8ee4f96b77784893,0.024538645148277277
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,a0f234319d529046,-0.0068158795436223385
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,a9e5f3149eb1b857,0.0004459112882614358
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,e005ad37ddfe3732,0.0073702007532119584
+12,Gender Bias,Bias-aware minus Baseline,reference_similarity,ffb5d72f44123c54,0.01144348978996279
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,08e17be0c80e43ef,0.0
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,15556eb6a36317c3,0.0
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,3e28727cf3102545,0.0
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,3e9856e4c8710c31,0.20000000000000007
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,4c011e8c4890c007,0.0
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,652b0ae33b53d30a,0.20000000000000007
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,8ee4f96b77784893,0.20000000000000007
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,a0f234319d529046,0.0
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,a9e5f3149eb1b857,-0.4
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,e005ad37ddfe3732,0.4
+13,Gender Bias,LLM-assisted minus Baseline,label_imbalance_mad,ffb5d72f44123c54,0.0
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,08e17be0c80e43ef,-0.012026186618539991
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,15556eb6a36317c3,-0.022059990631209503
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,3e28727cf3102545,-0.006110827955934706
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,3e9856e4c8710c31,-0.00722876042127607
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,4c011e8c4890c007,-0.040874109499984324
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,652b0ae33b53d30a,-0.022716461618741357
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,8ee4f96b77784893,-0.06371048026614717
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,a0f234319d529046,-0.01983911527527704
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,a9e5f3149eb1b857,-0.0003076702356338834
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,e005ad37ddfe3732,-0.017402705384625294
+14,Gender Bias,LLM-assisted minus Baseline,concept_similarity,ffb5d72f44123c54,-0.03880212414595813
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,08e17be0c80e43ef,-0.0002610653638839555
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,15556eb6a36317c3,-0.0007678459088007461
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,3e28727cf3102545,-0.019353161255518586
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,3e9856e4c8710c31,-0.003405178586641966
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,4c011e8c4890c007,-0.023329951365788804
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,652b0ae33b53d30a,-0.012804089983304345
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,8ee4f96b77784893,-0.010573904712994908
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,a0f234319d529046,-0.013522512714068124
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,a9e5f3149eb1b857,0.0074642717838287465
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,e005ad37ddfe3732,-0.010503446062405913
+15,Gender Bias,LLM-assisted minus Baseline,reference_similarity,ffb5d72f44123c54,-0.021202592055002856
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,08e17be0c80e43ef,0.20000000000000007
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,15556eb6a36317c3,0.19999999999999996
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,3e28727cf3102545,-0.4
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,3e9856e4c8710c31,0.0
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,4c011e8c4890c007,0.0
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,652b0ae33b53d30a,-0.19999999999999996
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,8ee4f96b77784893,-0.19999999999999996
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,a0f234319d529046,0.0
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,a9e5f3149eb1b857,-0.4
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,e005ad37ddfe3732,0.19999999999999996
+16,Gender Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,ffb5d72f44123c54,0.0
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,08e17be0c80e43ef,-0.01857104864385395
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,15556eb6a36317c3,-0.022321903291675826
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,3e28727cf3102545,0.0062095632155736435
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,3e9856e4c8710c31,-0.006400914655791401
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,4c011e8c4890c007,-0.021314946148130676
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,652b0ae33b53d30a,-0.025062258127662884
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,8ee4f96b77784893,-0.0626455209321446
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,a0f234319d529046,-0.002367028097311652
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,a9e5f3149eb1b857,0.002164328595002485
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,e005ad37ddfe3732,-0.01245926949712961
+17,Gender Bias,LLM-assisted minus Bias-aware,concept_similarity,ffb5d72f44123c54,-0.035482522431347086
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,08e17be0c80e43ef,-0.004065215587615939
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,15556eb6a36317c3,0.002349922060966486
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,3e28727cf3102545,-0.004031482338905323
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,3e9856e4c8710c31,0.0021669079860051343
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,4c011e8c4890c007,-0.006751683354377758
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,652b0ae33b53d30a,-0.019840486844380695
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,8ee4f96b77784893,-0.035112549861272185
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,a0f234319d529046,-0.006706633170445786
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,a9e5f3149eb1b857,0.007018360495567311
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,e005ad37ddfe3732,-0.017873646815617872
+18,Gender Bias,LLM-assisted minus Bias-aware,reference_similarity,ffb5d72f44123c54,-0.032646081844965646
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,4db0d3426c4134d6,-0.039999999999999994
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,4ee03e1f4006cc91,0.039999999999999994
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,52558e52f3c2fe5f,0.0
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,a177f68ac9069959,-0.01999999999999999
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,b05b17e409a3c5d4,-0.01999999999999999
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,e0bfbb37cebf7533,0.0
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,ee4ab6ac993c9dae,0.01999999999999999
+19,Geo-Cultural Bias,Bias-aware minus Baseline,label_imbalance_mad,f57a960ddbe1cbb1,0.039999999999999994
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,4db0d3426c4134d6,-0.002948068181673702
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,4ee03e1f4006cc91,-0.0006560317675272653
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,52558e52f3c2fe5f,-0.007515559991200738
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,a177f68ac9069959,0.01849369401733081
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,b05b17e409a3c5d4,0.02225325956940649
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,e0bfbb37cebf7533,0.019092557479937877
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,ee4ab6ac993c9dae,0.0057304528852303305
+20,Geo-Cultural Bias,Bias-aware minus Baseline,concept_similarity,f57a960ddbe1cbb1,-0.001148018638292947
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,4db0d3426c4134d6,-0.005953079462051369
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,4ee03e1f4006cc91,-0.0014471332232157685
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,52558e52f3c2fe5f,-0.002728182077407826
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,a177f68ac9069959,0.022869471708933498
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,b05b17e409a3c5d4,0.013744709889094042
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,e0bfbb37cebf7533,0.0057606756687164085
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,ee4ab6ac993c9dae,0.011115988095601437
+21,Geo-Cultural Bias,Bias-aware minus Baseline,reference_similarity,f57a960ddbe1cbb1,-0.001224428415298462
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,4db0d3426c4134d6,0.01999999999999999
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,4ee03e1f4006cc91,0.020000000000000004
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,52558e52f3c2fe5f,-0.01999999999999999
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,a177f68ac9069959,0.0
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,b05b17e409a3c5d4,0.01999999999999999
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,e0bfbb37cebf7533,0.01999999999999999
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,ee4ab6ac993c9dae,0.01999999999999999
+22,Geo-Cultural Bias,LLM-assisted minus Baseline,label_imbalance_mad,f57a960ddbe1cbb1,0.039999999999999994
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,4db0d3426c4134d6,-0.009036976893742887
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,4ee03e1f4006cc91,-0.010504492322603864
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,52558e52f3c2fe5f,-0.01576284935077027
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,a177f68ac9069959,-0.0020326611399650307
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,b05b17e409a3c5d4,-0.03387793332338332
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,e0bfbb37cebf7533,-0.012604744285345082
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,ee4ab6ac993c9dae,0.010660238166650127
+23,Geo-Cultural Bias,LLM-assisted minus Baseline,concept_similarity,f57a960ddbe1cbb1,-0.012257925520340607
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,4db0d3426c4134d6,-0.008171246449152625
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,4ee03e1f4006cc91,-0.0004702488581339592
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,52558e52f3c2fe5f,-0.02208322286605835
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,a177f68ac9069959,0.00634593963623048
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,b05b17e409a3c5d4,-0.043455691138903296
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,e0bfbb37cebf7533,-0.021191489696502697
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,ee4ab6ac993c9dae,0.022287128369013476
+24,Geo-Cultural Bias,LLM-assisted minus Baseline,reference_similarity,f57a960ddbe1cbb1,-0.002417403459548939
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,4db0d3426c4134d6,0.059999999999999984
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,4ee03e1f4006cc91,-0.01999999999999999
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,52558e52f3c2fe5f,-0.01999999999999999
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,a177f68ac9069959,0.01999999999999999
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,b05b17e409a3c5d4,0.03999999999999998
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,e0bfbb37cebf7533,0.01999999999999999
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,ee4ab6ac993c9dae,0.0
+25,Geo-Cultural Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,f57a960ddbe1cbb1,0.0
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,4db0d3426c4134d6,-0.006088908712069185
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,4ee03e1f4006cc91,-0.009848460555076599
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,52558e52f3c2fe5f,-0.008247289359569532
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,a177f68ac9069959,-0.02052635515729584
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,b05b17e409a3c5d4,-0.05613119289278981
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,e0bfbb37cebf7533,-0.03169730176528296
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,ee4ab6ac993c9dae,0.004929785281419796
+26,Geo-Cultural Bias,LLM-assisted minus Bias-aware,concept_similarity,f57a960ddbe1cbb1,-0.01110990688204766
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,4db0d3426c4134d6,-0.0022181669871012555
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,4ee03e1f4006cc91,0.0009768843650818093
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,52558e52f3c2fe5f,-0.019355040788650524
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,a177f68ac9069959,-0.016523532072703018
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,b05b17e409a3c5d4,-0.05720040102799734
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,e0bfbb37cebf7533,-0.026952165365219105
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,ee4ab6ac993c9dae,0.011171140273412039
+27,Geo-Cultural Bias,LLM-assisted minus Bias-aware,reference_similarity,f57a960ddbe1cbb1,-0.0011929750442504772
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,09f9d06a92399c65,0.22222222222222224
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,13c02f3c7d626d4b,0.0
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,14bb99a89a9a8f60,-0.22222222222222224
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,214b7d14a14b2626,-0.22222222222222224
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,381b51ddfd5d4f66,0.0
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,556718d05b677e88,-0.22222222222222224
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,65dc08a6f0068918,-0.22222222222222224
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,a2851de582953f59,0.08888888888888888
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,d3dfbf27e5cd52c6,-0.08888888888888888
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,dfaa1ef57d61a5fe,0.13333333333333336
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,eaf6600981ecb068,0.0
+28,Skin Tone Bias,Bias-aware minus Baseline,label_imbalance_mad,fd35223f2e7f8a81,0.2222222222222222
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,09f9d06a92399c65,0.028579014788071316
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,13c02f3c7d626d4b,0.021457036212086666
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,14bb99a89a9a8f60,0.0053950900832812065
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,214b7d14a14b2626,0.005155711993575091
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,381b51ddfd5d4f66,0.0414617358396451
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,556718d05b677e88,0.0069453916201988875
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,65dc08a6f0068918,0.016090807442863786
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,a2851de582953f59,-0.006458765765031155
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,d3dfbf27e5cd52c6,0.005795829618970544
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,dfaa1ef57d61a5fe,0.018541104967395472
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,eaf6600981ecb068,0.012442965557177832
+29,Skin Tone Bias,Bias-aware minus Baseline,concept_similarity,fd35223f2e7f8a81,0.03588743135333061
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,09f9d06a92399c65,0.036833940446376806
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,13c02f3c7d626d4b,0.0206756949424744
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,14bb99a89a9a8f60,0.007149903476238256
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,214b7d14a14b2626,0.006880596280097961
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,381b51ddfd5d4f66,0.047446498274803156
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,556718d05b677e88,0.011495588719844796
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,65dc08a6f0068918,0.014114752411842346
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,a2851de582953f59,-0.012536372244358107
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,d3dfbf27e5cd52c6,0.018280887603759788
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,dfaa1ef57d61a5fe,0.014684267342090607
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,eaf6600981ecb068,0.02028624713420865
+30,Skin Tone Bias,Bias-aware minus Baseline,reference_similarity,fd35223f2e7f8a81,0.03483897298574448
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,09f9d06a92399c65,0.08888888888888888
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,13c02f3c7d626d4b,0.22222222222222224
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,14bb99a89a9a8f60,-0.22222222222222224
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,214b7d14a14b2626,-0.13333333333333336
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,381b51ddfd5d4f66,-0.22222222222222224
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,556718d05b677e88,-0.22222222222222224
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,65dc08a6f0068918,-0.22222222222222224
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,a2851de582953f59,0.08888888888888888
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,d3dfbf27e5cd52c6,0.0
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,dfaa1ef57d61a5fe,-0.08888888888888888
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,eaf6600981ecb068,0.13333333333333336
+31,Skin Tone Bias,LLM-assisted minus Baseline,label_imbalance_mad,fd35223f2e7f8a81,0.13333333333333333
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,09f9d06a92399c65,0.03821669456859425
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,13c02f3c7d626d4b,-0.0008554166803757257
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,14bb99a89a9a8f60,0.005537566915154446
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,214b7d14a14b2626,-0.01596665618320306
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,381b51ddfd5d4f66,0.026490969210863136
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,556718d05b677e88,-0.0075466385732094465
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,65dc08a6f0068918,0.011617038647333766
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,a2851de582953f59,-0.0051801164944966505
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,d3dfbf27e5cd52c6,0.018131975705424935
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,dfaa1ef57d61a5fe,-0.0030348466088374326
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,eaf6600981ecb068,-0.010001726200183247
+32,Skin Tone Bias,LLM-assisted minus Baseline,concept_similarity,fd35223f2e7f8a81,0.0025826036930084173
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,09f9d06a92399c65,0.036220805346965784
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,13c02f3c7d626d4b,-0.015013325214385975
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,14bb99a89a9a8f60,0.0037357136607170105
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,214b7d14a14b2626,-0.020250941812992085
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,381b51ddfd5d4f66,0.02579082250595091
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,556718d05b677e88,-0.011514537036418943
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,65dc08a6f0068918,0.04123210608959199
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,a2851de582953f59,-0.010380576550960585
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,d3dfbf27e5cd52c6,0.03467846959829329
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,dfaa1ef57d61a5fe,-0.004428568482398976
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,eaf6600981ecb068,-0.010784165561199183
+33,Skin Tone Bias,LLM-assisted minus Baseline,reference_similarity,fd35223f2e7f8a81,-0.0036392241716384777
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,09f9d06a92399c65,-0.13333333333333336
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,13c02f3c7d626d4b,0.22222222222222224
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,14bb99a89a9a8f60,0.0
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,214b7d14a14b2626,0.08888888888888888
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,381b51ddfd5d4f66,-0.22222222222222224
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,556718d05b677e88,0.0
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,65dc08a6f0068918,0.0
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,a2851de582953f59,0.0
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,d3dfbf27e5cd52c6,0.08888888888888888
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,dfaa1ef57d61a5fe,-0.22222222222222224
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,eaf6600981ecb068,0.13333333333333336
+34,Skin Tone Bias,LLM-assisted minus Bias-aware,label_imbalance_mad,fd35223f2e7f8a81,-0.08888888888888888
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,09f9d06a92399c65,0.009637679780522934
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,13c02f3c7d626d4b,-0.022312452892462392
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,14bb99a89a9a8f60,0.00014247683187323945
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,214b7d14a14b2626,-0.02112236817677815
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,381b51ddfd5d4f66,-0.014970766628781967
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,556718d05b677e88,-0.014492030193408334
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,65dc08a6f0068918,-0.00447376879553002
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,a2851de582953f59,0.0012786492705345043
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,d3dfbf27e5cd52c6,0.012336146086454391
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,dfaa1ef57d61a5fe,-0.021575951576232905
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,eaf6600981ecb068,-0.02244469175736108
+35,Skin Tone Bias,LLM-assisted minus Bias-aware,concept_similarity,fd35223f2e7f8a81,-0.033304827660322195
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,09f9d06a92399c65,-0.0006131350994110218
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,13c02f3c7d626d4b,-0.035689020156860374
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,14bb99a89a9a8f60,-0.003414189815521246
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,214b7d14a14b2626,-0.027131538093090046
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,381b51ddfd5d4f66,-0.021655675768852245
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,556718d05b677e88,-0.02301012575626374
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,65dc08a6f0068918,0.027117353677749645
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,a2851de582953f59,0.002155795693397522
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,d3dfbf27e5cd52c6,0.016397581994533506
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,dfaa1ef57d61a5fe,-0.019112835824489582
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,eaf6600981ecb068,-0.031070412695407834
+36,Skin Tone Bias,LLM-assisted minus Bias-aware,reference_similarity,fd35223f2e7f8a81,-0.03847819715738296

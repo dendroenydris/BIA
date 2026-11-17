@@ -1,0 +1,13 @@
+category,arm,metric,mean,sd
+Skin Tone Bias,T,label_imbalance_mad,0.2833333333333333,0.07856742013183862
+Skin Tone Bias,T,concept_similarity,0.2214685408398509,0.016927283900516173
+Skin Tone Bias,T,reference_similarity,0.2479509860277176,0.018686782317480423
+Skin Tone Bias,F,label_imbalance_mad,0.29444444444444445,0.07488968960054254
+Skin Tone Bias,F,concept_similarity,0.22340542503322164,0.013671721794463222
+Skin Tone Bias,F,reference_similarity,0.24912656005471945,0.017919290297648674
+Ethnic Representation Bias,T,label_imbalance_mad,0.2,0.04276179870598791
+Ethnic Representation Bias,T,concept_similarity,0.2287869631105827,0.020762760142922096
+Ethnic Representation Bias,T,reference_similarity,0.2080331345399221,0.01896087351597831
+Ethnic Representation Bias,F,label_imbalance_mad,0.21,0.07329003050503234
+Ethnic Representation Bias,F,concept_similarity,0.23264763391473225,0.01750218614545843
+Ethnic Representation Bias,F,reference_similarity,0.20611237833897272,0.01810694076054633

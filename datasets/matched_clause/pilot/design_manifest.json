@@ -1,0 +1,18 @@
+{
+  "status": "draft design; not generated",
+  "master_seed": 20261003,
+  "prompt_entries": 31,
+  "planned_images": 310,
+  "all_pairs_equal_tokens": true,
+  "all_inputs_fit_77": true,
+  "position_range": [
+    20,
+    29
+  ],
+  "files_sha256": {
+    "PROTOCOL.md": "f3a9785f408447653f82fd59b1dcd0ceee096251b6f0365693af048c2230abd4",
+    "prompt_pairs.csv": "1baea32e08e51ff522acb1924e768b66ce6655bdb28eb779104d8753e03a5805",
+    "generation_schedule.csv": "ac249d70ff77d53a1332a2ad5f4a60d322f55df70fbb92ea24b22323143f1766"
+  },
+  "allocation_helper_sha256": "f0cf8bf7ba27a3381366b9cf03e30506d34a70670537d046e851c340187060f8"
+}

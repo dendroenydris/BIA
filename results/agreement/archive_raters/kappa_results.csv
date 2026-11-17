@@ -1,0 +1,11 @@
+field,subset,n,agree,agreement,kappa,ci_low,ci_high
+person_count,all 60,60,48,0.8,0.654,0.553,0.767
+gender_presentation,all 60,60,50,0.833,0.764,0.65,0.878
+gender_presentation,A10 only,15,12,0.8,0.211,0.0,0.464
+skin_tone,all 60,60,36,0.6,0.478,0.347,0.609
+skin_tone,A12 only,15,6,0.4,0.258,0.058,0.489
+age_appearance,all 60,60,30,0.5,0.339,0.219,0.461
+age_appearance,A32 only,15,8,0.533,0.453,0.227,0.67
+cultural_scene,all 60,60,39,0.65,0.47,0.382,0.561
+cultural_scene,A33 only,15,15,1.0,1.0,1.0,1.0
+multiple_persons,all 60,60,48,0.8,0.647,0.54,0.763

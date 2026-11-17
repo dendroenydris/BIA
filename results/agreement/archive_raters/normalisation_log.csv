@@ -1,0 +1,153 @@
+rater,image_id,field,submitted,normalised
+A,H13,cultural_scene,indeterminate,none_or_indeterminate
+A,H20,cultural_scene,indeterminate,none_or_indeterminate
+A,H24,skin_tone,white,light
+A,H46,cultural_scene,indeterminate,none_or_indeterminate
+A,H54,skin_tone,white,light
+A,H56,skin_tone,white,light
+A,H57,ethnic_appearance,south_southeast_asia,south_southeast_asian
+A,H57,cultural_scene,"south_asian,",south_asian
+B,H01,gender_presentation,woman_presenting,woman
+B,H01,cultural_scene,not_applicable,none_or_indeterminate
+B,H02,gender_presentation,woman_presenting,woman
+B,H02,cultural_scene,not_applicable,none_or_indeterminate
+B,H03,gender_presentation,"man_presenting, indeterminate",mixed
+B,H03,age_appearance,"young_adult, middle_aged",mixed
+B,H03,cultural_scene,"asian_cues, african_cues",mixed
+B,H04,gender_presentation,"man_presenting, indeterminate",mixed
+B,H04,skin_tone,"light, medium",mixed
+B,H04,cultural_scene,"asian_cues, african_cues, european_cues",mixed
+B,H05,gender_presentation,woman_presenting,woman
+B,H05,cultural_scene,not_applicable,none_or_indeterminate
+B,H06,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H06,skin_tone,"medium, dark",mixed
+B,H06,cultural_scene,"european_cues, other_cues",mixed
+B,H07,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H07,skin_tone,"light, dark",mixed
+B,H07,age_appearance,"young_adult, older_adult",mixed
+B,H07,cultural_scene,"african_cues, other_cues",mixed
+B,H08,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H08,skin_tone,"light, medium",mixed
+B,H08,age_appearance,"young_adult, middle_aged",mixed
+B,H08,cultural_scene,"european_cues, african_cues, other_cues",mixed
+B,H09,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H09,age_appearance,"middle_aged, indeterminate",mixed
+B,H09,cultural_scene,indeterminate,none_or_indeterminate
+B,H10,gender_presentation,woman_presenting,woman
+B,H10,age_appearance,young_adullt,young_adult
+B,H10,cultural_scene,"european_cues, north_american_cues",western_european
+B,H11,gender_presentation,man_presenting,man
+B,H11,cultural_scene,"european_cues, north_american_cues",western_european
+B,H12,gender_presentation,man_presenting,man
+B,H12,cultural_scene,"european_cues, north_american_cues",western_european
+B,H13,cultural_scene,indeterminate,none_or_indeterminate
+B,H14,gender_presentation,woman_presenting,woman
+B,H14,cultural_scene,european_cues,western_european
+B,H15,gender_presentation,woman_presenting,woman
+B,H15,cultural_scene,not_applicable,none_or_indeterminate
+B,H16,gender_presentation,woman_presenting,woman
+B,H16,cultural_scene,not_applicable,none_or_indeterminate
+B,H17,gender_presentation,"man_presenting, indeterminate",mixed
+B,H17,cultural_scene,"european_cues, north_american_cues",western_european
+B,H18,gender_presentation,man_presenting,man
+B,H18,cultural_scene,"european_cues, north_american_cues",western_european
+B,H19,gender_presentation,woman_presenting,woman
+B,H19,cultural_scene,not_applicable,none_or_indeterminate
+B,H20,skin_tone,"light, medium",mixed
+B,H20,cultural_scene,indeterminate,none_or_indeterminate
+B,H21,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H21,skin_tone,"light, medium",mixed
+B,H21,age_appearance,"middle_aged, older_adult",mixed
+B,H21,cultural_scene,"european_cues, north_american_cues",western_european
+B,H22,skin_tone,"light, indeterminate ",mixed
+B,H22,cultural_scene,"european_cues, north_american_cues, asian_cues, other_cues",mixed
+B,H23,gender_presentation,woman_presenting,woman
+B,H23,cultural_scene,not_applicable,none_or_indeterminate
+B,H24,gender_presentation,woman_presenting,woman
+B,H24,skin_tone,"light, dark",mixed
+B,H24,age_appearance,"young_adult, middle_aged",mixed
+B,H24,cultural_scene,"european_cues, north_american_cues",western_european
+B,H25,gender_presentation,man_presenting,man
+B,H25,cultural_scene,"european_cues, north_american_cues",western_european
+B,H26,gender_presentation,"6 male, indeterminate",mixed
+B,H26,skin_tone,"light, medium, dark",mixed
+B,H26,cultural_scene,"african_cues, other_cues",mixed
+B,H27,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H27,skin_tone,"light, medium, dark",mixed
+B,H27,age_appearance,"young_adult, middle_aged",mixed
+B,H27,cultural_scene,"african_cues, other_cues",mixed
+B,H28,gender_presentation,man_presenting,man
+B,H28,cultural_scene,"european_cues, north_american_cues",western_european
+B,H29,gender_presentation,man_presenting,man
+B,H29,cultural_scene,"european_cues, north_american_cues",western_european
+B,H30,gender_presentation,woman_presenting,woman
+B,H30,cultural_scene,"european_cues, north_american_cues",western_european
+B,H31,gender_presentation,woman_presenting,woman
+B,H31,cultural_scene,not_applicable,none_or_indeterminate
+B,H32,gender_presentation,man_presenting,man
+B,H32,cultural_scene,"european_cues, north_american_cues",western_european
+B,H33,gender_presentation,woman_presenting,woman
+B,H33,cultural_scene,not_applicable,none_or_indeterminate
+B,H34,gender_presentation,man_presenting,man
+B,H34,cultural_scene,"european_cues, north_american_cues",western_european
+B,H35,gender_presentation,woman_presenting,woman
+B,H35,cultural_scene,"european_cues, north_american_cues",western_european
+B,H36,gender_presentation,man_presenting,man
+B,H36,cultural_scene,"european_cues, north_american_cues",western_european
+B,H37,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H37,cultural_scene,"european_cues, north_american_cues",western_european
+B,H38,gender_presentation,woman_presenting,woman
+B,H38,cultural_scene,not_applicable,none_or_indeterminate
+B,H39,gender_presentation,man_presenting,man
+B,H39,cultural_scene,"european_cues, north_american_cues",western_european
+B,H40,gender_presentation,woman_presenting,woman
+B,H40,cultural_scene,"european_cues, north_american_cues",western_european
+B,H41,gender_presentation,woman_presenting,woman
+B,H41,cultural_scene,not_applicable,none_or_indeterminate
+B,H42,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H42,skin_tone,"medium, dark",mixed
+B,H42,age_appearance,"young_adult, middle_aged",mixed
+B,H42,cultural_scene,african_cues,african
+B,H43,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H43,cultural_scene,"european_cues, north_american_cues",western_european
+B,H44,gender_presentation,woman_presenting,woman
+B,H44,cultural_scene,"european_cues, north_american_cues",western_european
+B,H45,gender_presentation,man_presenting,man
+B,H45,cultural_scene,"european_cues, north_american_cues",western_european
+B,H46,cultural_scene,"european_cues, north_american_cues",western_european
+B,H47,gender_presentation,woman_presenting,woman
+B,H47,cultural_scene,not_applicable,none_or_indeterminate
+B,H48,age_appearance,"middle_aged, older_adult, indeterminate",mixed
+B,H48,cultural_scene,"european_cues, north_american_cues",western_european
+B,H49,gender_presentation,"woman_presenting, indeterminate",mixed
+B,H49,skin_tone,"light, dark",mixed
+B,H49,age_appearance,"middle_aged, older_adult, indeterminate",mixed
+B,H49,cultural_scene,"european_cues, north_american_cues",western_european
+B,H50,gender_presentation,woman_presenting,woman
+B,H50,cultural_scene,"european_cues, north_american_cues",western_european
+B,H51,gender_presentation,man_presenting,man
+B,H51,cultural_scene,"european_cues, north_american_cues",western_european
+B,H52,gender_presentation,woman_presenting,woman
+B,H52,cultural_scene,not_applicable,none_or_indeterminate
+B,H53,gender_presentation,woman_presenting,woman
+B,H53,cultural_scene,"european_cues, north_american_cues",western_european
+B,H54,gender_presentation,"woman_presenting, indeterminate",mixed
+B,H54,age_appearance,"young_adult, indeterminate",mixed
+B,H54,cultural_scene,"european_cues, north_american_cues",western_european
+B,H55,gender_presentation,"woman_presenting, man_presenting, indeterminate",mixed
+B,H55,cultural_scene,"european_cues, north_american_cues, other_cues, asian_cues",mixed
+B,H56,gender_presentation,"woman_presenting, indeterminate",mixed
+B,H56,age_appearance,"young_adult, middle_aged",mixed
+B,H56,cultural_scene,"european_cues, north_american_cues",western_european
+B,H57,gender_presentation,man_presenting,man
+B,H57,cultural_scene,"european_cues, north_american_cues",western_european
+B,H58,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H58,skin_tone,"medium, dark",mixed
+B,H58,cultural_scene,"european_cues, north_american_cues",western_european
+B,H59,gender_presentation,"woman_presenting, indeterminate",mixed
+B,H59,skin_tone,"light, medium, dark",mixed
+B,H59,cultural_scene,indeterminate,none_or_indeterminate
+B,H60,gender_presentation,"woman_presenting, man_presenting",mixed
+B,H60,skin_tone,"light, medium, dark",mixed
+B,H60,age_appearance,"teenager, young_adult",mixed
+B,H60,cultural_scene,"european_cues, north_american_cues",western_european

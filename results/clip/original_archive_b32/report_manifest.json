@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "source_per_image_sha256": "9cfbb6d3c87a73a4fce3c0f9d17c6473e60f0786c73b87b611bc8135844aef25",
+  "prompt_cells": 129,
+  "comparisons": 36,
+  "bootstrap_seed": 20261003,
+  "bootstrap_resamples": 20000,
+  "bootstrap_unit": "paired original prompt differences",
+  "primary_holm_below_05": [
+    14
+  ],
+  "sign_sensitivity_holm_below_05": [
+    14
+  ],
+  "shapiro_below_05": [
+    13,
+    33
+  ],
+  "interpretation": "exploratory selected-prompt inference; not population sampling, randomized causal inference, or an ethical fairness test",
+  "source_original_manifest_sha256": "57cccae5106f586ced676278f1765eb8bb3fb165cd81687012c2bf2b1201a367",
+  "source_manifest_sha256": "364b40242044a53cf4ac3eda6dd8d75b4162336b2e46d4e91a96a4fd53c770a5"
+}
