@@ -42,7 +42,7 @@ command-line arguments.
 |---|---|---|---|---|---|
 | Original archive | SD 2.1 | 40 prompts × 3 conditions × 5 images, independent noise per image | 600 | `datasets/original_archive_schedule.csv` | `records/qwen3vl/original_archive.jsonl`, `records/clip/original_archive_b32/` |
 | Main experiment | SD 2.1 and FLUX.1-schnell | 40 prompts × 3 conditions × 50 images per model; the three conditions of a prompt share 50 initial noises | 12,000 | `datasets/main_experiment/` | `records/generation/main_{sd21,flux}/` |
-| Matched-clause experiment | SD 2.1 (and FLUX.1-schnell, partial) | 31 non-age prompts × 2 versions × 50 images | 3,100 + 1,550 | `datasets/matched_clause/` | `records/generation/matched_{sd21,flux}/` |
+| Matched-clause experiment | SD 2.1 and FLUX.1-schnell | 2 versions × 50 images; SD 2.1: the 31 non-age prompts; FLUX.1-schnell: the 11 gender and 4 racial prompts, plus one version of a fifth racial prompt | 3,100 + 1,550 | `datasets/matched_clause/` | `records/generation/matched_{sd21,flux}/` |
 | Matched-clause pilot | SD 2.1 | 31 prompts × 2 versions × 5 images | 310 | `datasets/matched_clause/pilot/` | `records/matched_clause_pilot/` |
 | Truncation regeneration | SD 2.1 | 8 long rewrites × 2 encodings × 5 images | 80 | `datasets/truncation_regeneration/` | `records/truncation_regeneration/` |
 
