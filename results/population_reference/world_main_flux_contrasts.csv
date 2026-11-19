@@ -4,11 +4,11 @@ gender,llm_assisted minus baseline,11,0.0064,-0.0887,0.1015,0.90625,1
 gender,llm_assisted minus bias_aware,11,0.0775,-0.0621,0.2172,0.3125,1
 skin_tone,bias_aware minus baseline,12,-0.0553,-0.1398,0.0291,0.17578125,1
 skin_tone,llm_assisted minus baseline,12,0.0266,-0.0458,0.099,0.43310546875,1
-skin_tone,llm_assisted minus bias_aware,12,0.0819,0.0098,0.154,0.0302734375,0.4238
+skin_tone,llm_assisted minus bias_aware,12,0.0819,0.0098,0.154,0.0302734375,0.423828
 ethnicity,bias_aware minus baseline,12,-0.0369,-0.0809,0.0072,0.09375,1
 ethnicity,llm_assisted minus baseline,12,-0.0289,-0.0627,0.005,0.08984375,1
 ethnicity,llm_assisted minus bias_aware,12,0.008,-0.0382,0.0542,0.705078125,1
-culture,bias_aware minus baseline,8,-0.0611,-0.1,-0.0222,0.015625,0.2344
+culture,bias_aware minus baseline,8,-0.0611,-0.1,-0.0222,0.015625,0.234375
 culture,llm_assisted minus baseline,8,-0.0437,-0.1065,0.0191,0.140625,1
 culture,llm_assisted minus bias_aware,8,0.0174,-0.0365,0.0714,0.4609375,1
 age,bias_aware minus baseline,9,-0.0022,-0.0925,0.088,0.94921875,1

@@ -196,7 +196,7 @@ def run_variant(variant, q):
                 rows.append({'axis': ax, 'contrast': f'{a} minus {b}', 'n': len(dd), 'mean_difference': round(m, 4),
                              'ci_low': round(m - h, 4), 'ci_high': round(m + h, 4), 'p_sign_flip': signflip(dd)})
         for r, p in zip(rows, holm([r['p_sign_flip'] for r in rows])):
-            r['p_holm'] = round(p, 4)
+            r['p_holm'] = round(p, 6)
         with open(OUT / f'{variant}_{run}_contrasts.csv', 'w', newline='') as fh:
             w = csv.DictWriter(fh, fieldnames=list(rows[0]))
             w.writeheader()
