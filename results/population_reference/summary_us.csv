@@ -54,9 +54,9 @@ matched_sd21,culture,C,7,0.2537
 matched_sd21,culture,I,8,0.2581
 matched_flux,gender,C,11,0.2274
 matched_flux,gender,I,11,0.1428
-matched_flux,skin_tone,C,5,0.3099
-matched_flux,skin_tone,I,4,0.2453
-matched_flux,ethnicity,C,5,0.1582
-matched_flux,ethnicity,I,4,0.158
-matched_flux,culture,C,0,
-matched_flux,culture,I,0,
+matched_flux,skin_tone,C,12,0.3287
+matched_flux,skin_tone,I,12,0.2921
+matched_flux,ethnicity,C,12,0.164
+matched_flux,ethnicity,I,12,0.1745
+matched_flux,culture,C,7,0.2514
+matched_flux,culture,I,7,0.2256

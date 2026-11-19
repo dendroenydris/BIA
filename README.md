@@ -42,7 +42,7 @@ command-line arguments.
 |---|---|---|---|---|---|
 | Original archive | SD 2.1 | 40 prompts × 3 conditions × 5 images, independent noise per image | 600 | `datasets/original_archive_schedule.csv` | `records/qwen3vl/original_archive.jsonl`, `records/clip/original_archive_b32/` |
 | Main experiment | SD 2.1 and FLUX.1-schnell | 40 prompts × 3 conditions × 50 images per model; the three conditions of a prompt share 50 initial noises | 12,000 | `datasets/main_experiment/` | `records/generation/main_{sd21,flux}/` |
-| Matched-clause experiment | SD 2.1 (and FLUX.1-schnell, partial) | 31 non-age prompts × 2 versions × 50 images | 3,100 + 1,550 | `datasets/matched_clause/` | `records/generation/matched_{sd21,flux}/` |
+| Matched-clause experiment | SD 2.1 and FLUX.1-schnell | 31 non-age prompts × 2 versions × 50 images | 3,100 + 3,100 | `datasets/matched_clause/` | `records/generation/matched_{sd21,flux}/` |
 | Matched-clause pilot | SD 2.1 | 31 prompts × 2 versions × 5 images | 310 | `datasets/matched_clause/pilot/` | `records/matched_clause_pilot/` |
 | Truncation regeneration | SD 2.1 | 8 long rewrites × 2 encodings × 5 images | 80 | `datasets/truncation_regeneration/` | `records/truncation_regeneration/` |
 
@@ -64,8 +64,8 @@ adds the same detail sentence; version I then adds "Avoid demographic stereotype
 "Avoid visual artifacts in this depiction." Both versions have the same token length and fit the 77-token context, so
 the comparison isolates the anti-stereotype clause. Both versions of a block share one initial noise. The first five
 repetitions reuse the seeds of the pilot (50 steps, Apple MPS), which makes the step-count check possible. The
-FLUX.1-schnell run covers the 11 gender prompts and the first four racial prompts in both versions (1,500 images) and one
-version of a fifth racial prompt (50 images, unpaired and not analysed).
+FLUX.1-schnell images cover all 31 prompts in both versions (3,100 images); the first 1,550 and the remaining 1,550 were
+generated in two sessions with the same script, schedule, GPU type and package versions.
 
 **Truncation regeneration.** SD 2.1 reads at most 77 tokens, and eight LLM-assisted racial rewrites (A14–A19, A22, A23)
 are longer. `generation/truncation_regeneration.py` renders each with the standard truncated input (T) and with the full
@@ -170,7 +170,7 @@ LLM-assisted prompts are the GPT-4o outputs.
 ## What is not stored here
 
 - **Images.** The 600 archive images are distributed with the paper's supplementary material as one parquet file. The
-  16,650 images of the main and matched-clause experiments, the 310 pilot images and the 80 truncation images are
+  18,200 images of the main and matched-clause experiments, the 310 pilot images and the 80 truncation images are
   identified by file hash in the generation receipts and are available on request; they will be deposited with a
   persistent identifier on publication.
 - **Model weights.** SD 2.1, FLUX.1-schnell, Qwen3-VL and CLIP are public; the revisions and file hashes are in the
